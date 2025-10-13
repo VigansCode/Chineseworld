@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAIRN ISLAND - A Murder Mystery</title>
+    <title>石冢岛 - 谋杀之谜</title>
     <style>
         body {
             margin: 0;
@@ -1135,15 +1135,15 @@
 <body>
     <div id="loading">
         <div class="loading-content">
-            <div class="case-stamp">CASE #001</div>
+            <div class="case-stamp">案件 #001</div>
             <div class="corner-ornament top-left"></div>
             <div class="corner-ornament top-right"></div>
             <div class="corner-ornament bottom-left"></div>
             <div class="corner-ornament bottom-right"></div>
             <div class="coffee-stain-2"></div>
             
-            <div class="loading-title">CAIRN ISLAND</div>
-            <div class="loading-subtitle">⚊ A MURDER MYSTERY ⚊</div>
+            <div class="loading-title">石冢岛</div>
+            <div class="loading-subtitle">⚊ 谋杀之谜 ⚊</div>
             <div class="mystery-icons">
                 <div class="mystery-icon">🔍</div>
                 <div class="mystery-icon">🗡️</div>
@@ -1154,7 +1154,7 @@
                     <div class="loading-bar-fill"></div>
                 </div>
             </div>
-            <div class="loading-text">⚊ CASE FILE LOADING ⚊</div>
+            <div class="loading-text">⚊ 案件档案加载中 ⚊</div>
         </div>
     </div>
     <canvas id="gameCanvas"></canvas>
@@ -1165,22 +1165,22 @@
     </div>
     
     <div id="cluesBox">
-        <div class="clues-title">🔮 MYSTERIES</div>
+        <div class="clues-title">🔮 谜团</div>
         <div class="clue-content">
             <div class="clue-item" onclick="openMysteryModal('wilson')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🔍 Wilson Missing</strong> - Day 3
+                <strong style="color: #fbbf24;">🔍 威尔逊失踪</strong> - 第三天
             </div>
             <div class="clue-item" onclick="openMysteryModal('insurance')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">💰 Thompson's Secret</strong> - Insurance policy
+                <strong style="color: #fbbf24;">💰 汤普森的秘密</strong> - 保险单
             </div>
             <div class="clue-item" onclick="openMysteryModal('ritual')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🕯️ The 1987 Ritual</strong> - Seven names
+                <strong style="color: #fbbf24;">🕯️ 1987年仪式</strong> - 七个名字
             </div>
             <div class="clue-item" onclick="openMysteryModal('caves')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🗺️ Underwater Caves</strong> - Symbols
+                <strong style="color: #fbbf24;">🗺️ 水下洞穴</strong> - 符号
             </div>
             <div class="clue-item" onclick="openMysteryModal('locked')" style="cursor: pointer; transition: all 0.2s; background: rgba(239, 68, 68, 0.2);">
-                <strong style="color: #ef4444;">🔒 LOCKED FILE</strong> - Password Required
+                <strong style="color: #ef4444;">🔒 锁定文件</strong> - 需要密码
             </div>
         </div>
     </div>
@@ -1405,51 +1405,51 @@
     
     <div id="sidePanel">
         <div class="panel-section">
-            <div class="panel-title">Day Tracker: Day 1</div>
+            <div class="panel-title">日期追踪：第一天</div>
             <div class="panel-content">
-                <div class="stat-item">LIVE: ON X</div>
-                <div class="stat-item" style="font-size: 12px; cursor: pointer; background: rgba(245, 158, 11, 0.1); padding: 8px; border-radius: 4px; border: 1px solid rgba(245, 158, 11, 0.3);" onclick="copyCA()" title="Click to copy">
-                    <strong style="color: #fbbf24;">CA:</strong> <span id="caText">TBA</span>
+                <div class="stat-item">直播：X平台</div>
+                <div class="stat-item" style="font-size: 12px; cursor: pointer; background: rgba(245, 158, 11, 0.1); padding: 8px; border-radius: 4px; border: 1px solid rgba(245, 158, 11, 0.3);" onclick="copyCA()" title="点击复制">
+                    <strong style="color: #fbbf24;">合约地址:</strong> <span id="caText">待定</span>
                 </div>
             </div>
         </div>
         
         <div class="panel-section">
-            <div class="panel-title">Voting - Who is Guilty?</div>
+            <div class="panel-title">投票 - 谁有罪？</div>
             <div class="panel-content">
-                <div class="stat-item"><strong>Time Remaining: <span id="countdown">8:00</span></strong></div>
+                <div class="stat-item"><strong>剩余时间: <span id="countdown">8:00</span></strong></div>
                 <div style="margin-top: 12px;">
-                    <div class="vote-option" onclick="vote('Sarah')">
-                        <span class="vote-name">Sarah</span>
-                        <span class="vote-count" id="vote-Sarah">0</span>
+                    <div class="vote-option" onclick="vote('李雪')">
+                        <span class="vote-name">李雪</span>
+                        <span class="vote-count" id="vote-李雪">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Marcus')">
-                        <span class="vote-name">Marcus</span>
-                        <span class="vote-count" id="vote-Marcus">0</span>
+                    <div class="vote-option" onclick="vote('王明')">
+                        <span class="vote-name">王明</span>
+                        <span class="vote-count" id="vote-王明">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Jack')">
-                        <span class="vote-name">Jack</span>
-                        <span class="vote-count" id="vote-Jack">0</span>
+                    <div class="vote-option" onclick="vote('张杰克')">
+                        <span class="vote-name">张杰克</span>
+                        <span class="vote-count" id="vote-张杰克">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Bernie')">
-                        <span class="vote-name">Bernie</span>
-                        <span class="vote-count" id="vote-Bernie">0</span>
+                    <div class="vote-option" onclick="vote('伯尼')">
+                        <span class="vote-name">伯尼</span>
+                        <span class="vote-count" id="vote-伯尼">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Shiba Inu')">
-                        <span class="vote-name">Shiba Inu</span>
-                        <span class="vote-count" id="vote-Shiba Inu">0</span>
+                    <div class="vote-option" onclick="vote('柴犬')">
+                        <span class="vote-name">柴犬</span>
+                        <span class="vote-count" id="vote-柴犬">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Takeshi')">
-                        <span class="vote-name">Takeshi</span>
-                        <span class="vote-count" id="vote-Takeshi">0</span>
+                    <div class="vote-option" onclick="vote('竹内武')">
+                        <span class="vote-name">竹内武</span>
+                        <span class="vote-count" id="vote-竹内武">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Mr. Thompson')">
-                        <span class="vote-name">Mr. Thompson</span>
-                        <span class="vote-count" id="vote-Mr. Thompson">0</span>
+                    <div class="vote-option" onclick="vote('汤普森先生')">
+                        <span class="vote-name">汤普森先生</span>
+                        <span class="vote-count" id="vote-汤普森先生">0</span>
                     </div>
                 </div>
                 <div id="guiltyAnnouncement" style="display: none; background: rgba(239, 68, 68, 0.3); border: 3px solid #ef4444; border-radius: 8px; padding: 15px; margin-top: 15px; text-align: center;">
-                    <div style="color: #fbbf24; font-size: 18px; font-weight: bold; margin-bottom: 8px;">🔴 GUILTY VERDICT 🔴</div>
+                    <div style="color: #fbbf24; font-size: 18px; font-weight: bold; margin-bottom: 8px;">🔴 有罪判决 🔴</div>
                     <div id="guiltyName" style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;"></div>
                     <div id="guiltyReason" style="color: #cbd5e1; font-size: 13px; line-height: 1.5;"></div>
                 </div>
@@ -1745,8 +1745,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Sarah",
-                description: "A friendly villager who knows the island well.",
+                name: "李雪",
+                description: "一位友好的村民，对岛屿了如指掌。",
                 type: "human"
             });
             
@@ -1768,8 +1768,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Marcus",
-                description: "A brave warrior protecting the island.",
+                name: "王明",
+                description: "一位勇敢的战士，保护着岛屿。",
                 type: "human"
             });
             
@@ -1791,8 +1791,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Jack",
-                description: "A local fisherman with stories to tell.",
+                name: "张杰克",
+                description: "一位有故事的渔夫。",
                 type: "human"
             });
             
@@ -1814,8 +1814,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Bernie",
-                description: "A passionate activist fighting for change.",
+                name: "伯尼",
+                description: "一位为变革而战的激情活动家。",
                 type: "human"
             });
             
@@ -1837,8 +1837,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Shiba Inu",
-                description: "A loyal Shiba Inu exploring the island.",
+                name: "柴犬",
+                description: "一只忠诚的柴犬在岛上探索。",
                 type: "human"
             });
             
@@ -1860,8 +1860,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Takeshi",
-                description: "A traditional Japanese merchant trading goods.",
+                name: "竹内武",
+                description: "一位贸易货物的传统商人。",
                 type: "human"
             });
             
@@ -1883,13 +1883,13 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Mr. Thompson",
-                description: "An old businessman with many secrets.",
+                name: "汤普森先生",
+                description: "一位有许多秘密的老商人。",
                 type: "human"
             });
             
             const sheepSprites = [sheep1Sprite, sheep2Sprite, sheep3Sprite, sheep4Sprite, sheep5Sprite];
-            const sheepColors = ["White", "Brown", "Black", "Gray", "Spotted"];
+            const sheepColors = ["白色", "棕色", "黑色", "灰色", "花斑"];
             const sheepRegionIndices = [15, 14, 12, 11, 9, 8, 6, 5, 4, 3];
             
             let sheepIdx = 0;
@@ -1923,8 +1923,8 @@
                         pauseTimer: 0,
                         pauseDuration: 0,
                         isPaused: false,
-                        name: sheepColors[index] + " Sheep",
-                        description: "A peaceful " + sheepColors[index].toLowerCase() + " sheep grazing.",
+                        name: sheepColors[index] + "绵羊",
+                        description: "一只和平的" + sheepColors[index] + "绵羊在吃草。",
                         type: "sheep"
                     });
                     sheepIdx++;
@@ -2485,13 +2485,13 @@
             const characterPanel = document.getElementById('characterPanel');
             
             const humanChars = [
-                { name: "Sarah", sprite: femaleSprite, offsetX: -6, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Marcus", sprite: warriorSprite, offsetX: -8, offsetY: 8, arrowX: 28, arrowY: -30 },
-                { name: "Jack", sprite: maleSprite, offsetX: -5, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Bernie", sprite: bernieSprite, offsetX: -8, offsetY: 0, arrowX: 32, arrowY: -40 },
-                { name: "Shiba Inu", sprite: shibaSprite, offsetX: -7, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Takeshi", sprite: japaneseSprite, offsetX: -8, offsetY: 0, arrowX: 24, arrowY: -40 },
-                { name: "Mr. Thompson", sprite: businessmanSprite, offsetX: -8, offsetY: 0, displayName: "Thompson", arrowX: 24, arrowY: -40 }
+                { name: "李雪", sprite: femaleSprite, offsetX: -6, offsetY: 0, arrowX: 24, arrowY: -30 },
+                { name: "王明", sprite: warriorSprite, offsetX: -8, offsetY: 8, arrowX: 28, arrowY: -30 },
+                { name: "张杰克", sprite: maleSprite, offsetX: -5, offsetY: 0, arrowX: 24, arrowY: -30 },
+                { name: "伯尼", sprite: bernieSprite, offsetX: -8, offsetY: 0, arrowX: 32, arrowY: -40 },
+                { name: "柴犬", sprite: shibaSprite, offsetX: -7, offsetY: 0, arrowX: 24, arrowY: -30 },
+                { name: "竹内武", sprite: japaneseSprite, offsetX: -8, offsetY: 0, arrowX: 24, arrowY: -40 },
+                { name: "汤普森先生", sprite: businessmanSprite, offsetX: -8, offsetY: 0, displayName: "汤普森", arrowX: 24, arrowY: -40 }
             ];
             
             characterPanel.innerHTML = '';
@@ -2775,13 +2775,13 @@
         const closeMysteryModal = document.getElementById('closeMysteryModal');
         
         const votes = {
-            'Sarah': 0,
-            'Marcus': 0,
-            'Jack': 0,
-            'Bernie': 0,
-            'Shiba Inu': 0,
-            'Takeshi': 0,
-            'Mr. Thompson': 0
+            '李雪': 0,
+            '王明': 0,
+            '张杰克': 0,
+            '伯尼': 0,
+            '柴犬': 0,
+            '竹内武': 0,
+            '汤普森先生': 0
         };
         
         function loadVotes() {
