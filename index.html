@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAIRN ISLAND - A Murder Mystery</title>
+<title>凯恩岛 - 谋杀之谜</title>
     <style>
         body {
             margin: 0;
@@ -1142,13 +1142,13 @@
             <div class="corner-ornament bottom-right"></div>
             <div class="coffee-stain-2"></div>
             
-            <div class="loading-title">CAIRN ISLAND</div>
-            <div class="loading-subtitle">⚊ A MURDER MYSTERY ⚊</div>
-            <div class="mystery-icons">
-                <div class="mystery-icon">🔍</div>
-                <div class="mystery-icon">🗡️</div>
-                <div class="mystery-icon">💀</div>
-            </div>
+<div class="loading-title">凯恩岛</div>
+<div class="loading-subtitle">⚊ 谋杀之谜 ⚊</div>
+<div class="mystery-icons">
+    <div class="mystery-icon">🔍</div>
+    <div class="mystery-icon">🗡️</div>
+    <div class="mystery-icon">💀</div>
+</div>
             <div class="loading-bar-container">
                 <div class="loading-bar">
                     <div class="loading-bar-fill"></div>
@@ -1164,26 +1164,26 @@
         <div id="playerDot"></div>
     </div>
     
-    <div id="cluesBox">
-        <div class="clues-title">🔮 MYSTERIES</div>
-        <div class="clue-content">
-            <div class="clue-item" onclick="openMysteryModal('wilson')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🔍 Wilson Missing</strong> - Day 3
-            </div>
-            <div class="clue-item" onclick="openMysteryModal('insurance')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">💰 Thompson's Secret</strong> - Insurance policy
-            </div>
-            <div class="clue-item" onclick="openMysteryModal('ritual')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🕯️ The 1987 Ritual</strong> - Seven names
-            </div>
-            <div class="clue-item" onclick="openMysteryModal('caves')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🗺️ Underwater Caves</strong> - Symbols
-            </div>
-            <div class="clue-item" onclick="openMysteryModal('locked')" style="cursor: pointer; transition: all 0.2s; background: rgba(239, 68, 68, 0.2);">
-                <strong style="color: #ef4444;">🔒 LOCKED FILE</strong> - Password Required
-            </div>
+<div id="cluesBox">
+    <div class="clues-title">🔮 谜团</div>
+    <div class="clue-content">
+        <div class="clue-item" onclick="openMysteryModal('wilson')" style="cursor: pointer; transition: all 0.2s;">
+            <strong style="color: #fbbf24;">🔍 威尔逊失踪</strong> - 第三天
+        </div>
+        <div class="clue-item" onclick="openMysteryModal('insurance')" style="cursor: pointer; transition: all 0.2s;">
+            <strong style="color: #fbbf24;">💰 汤普森的秘密</strong> - 保险单
+        </div>
+        <div class="clue-item" onclick="openMysteryModal('ritual')" style="cursor: pointer; transition: all 0.2s;">
+            <strong style="color: #fbbf24;">🕯️ 1987年仪式</strong> - 七个名字
+        </div>
+        <div class="clue-item" onclick="openMysteryModal('caves')" style="cursor: pointer; transition: all 0.2s;">
+            <strong style="color: #fbbf24;">🗺️ 水下洞穴</strong> - 符号
+        </div>
+        <div class="clue-item" onclick="openMysteryModal('locked')" style="cursor: pointer; transition: all 0.2s; background: rgba(239, 68, 68, 0.2);">
+            <strong style="color: #ef4444;">🔒 锁定文件</strong> - 需要密码
         </div>
     </div>
+</div>
 
     <div id="playerMarker">⬇</div>
     
@@ -1237,225 +1237,170 @@
                 </div>
             </div>
             
-            <div class="awareness-section">
-                <div class="awareness-label">Awareness Level</div>
-                <div class="awareness-bar">
-                    <div class="awareness-fill" id="awarenessFill" style="width: 0%"></div>
-                    <div class="awareness-text" id="awarenessText">0%</div>
-                </div>
-            </div>
+<div class="awareness-section">
+    <div class="awareness-label">意识水平</div>
+    <div class="awareness-bar">
+        <div class="awareness-fill" id="awarenessFill" style="width: 0%"></div>
+        <div class="awareness-text" id="awarenessText">0%</div>
+    </div>
+</div>
             
             <div class="conversations-section" id="conversationsSection">
             </div>
         </div>
     </div>
+<div id="infoModal">
+    <div id="closeModal">×</div>
+    <div class="modal-header">欢迎来到凯恩岛</div>
     
-    <div id="infoModal">
-        <div id="closeModal">×</div>
-        <div class="modal-header">Welcome to Cairn Island</div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">About The Project</div>
-            <div class="modal-content">
-                Welcome to Cairn Island - an immersive interactive mystery game where you explore a living, breathing island filled with secrets, conspiracies, and a dark murder mystery. This is a fully realized world where AI-powered characters roam freely, each harboring their own secrets about the disappearance of Old Man Wilson.
-            </div>
+    <div class="modal-section">
+        <div class="modal-section-title">关于项目</div>
+        <div class="modal-content">
+            欢迎来到凯恩岛——一个沉浸式互动谜题游戏，您可以探索一个充满秘密、阴谋和黑暗谋杀谜团的鲜活岛屿。这是一个完全实现的世界，AI驱动的角色自由漫游，每个人都隐藏着关于老威尔逊失踪的秘密。
         </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">The Mystery</div>
-            <div class="modal-content">
-                Old Man Wilson has vanished without a trace. Seven suspects remain on the island, each with their own motives, alibis, and secrets. Explore the island, read character conversations, unlock mystery files, and vote on who you think is guilty. Can you solve the case before time runs out?
-            </div>
-        </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">📜 Island Lore & Backstory</div>
-            <div class="modal-content">
-                <strong>The Island's Dark History:</strong><br><br>
-                
-                Cairn Island is no ordinary island. For over a century, it has been plagued by mysterious disappearances - always during the autumn equinox, always in cycles of 13 years. The locals whisper about ancient rituals, cursed stone circles, and underwater caves that glow with an unnatural light when the moon is full.<br><br>
-                
-                <strong>The 1987 Ritual:</strong><br><br>
-                
-                Everything changed in 1987. Seven desperate islanders - drowning in debt, facing ruin - gathered at the ancient stone circle. They performed a blood ritual, seeking prosperity from forces they didn't understand. The ritual worked... but demanded a price. One had to die for the others to prosper. They drew straws. Thompson's brother lost.<br><br>
-                
-                Only two survived that night: a young businessman named Thompson, and Takeshi's grandfather. The others? They simply vanished. But Thompson's fortunes changed overnight. Within months, he owned half the island. The survivors made a pact: never speak of what happened. Never return to the stones. And never, ever dig into the past.<br><br>
-                
-                <strong>The Seven Inhabitants:</strong><br><br>
-                
-                Now, decades later, seven people remain on Cairn Island - each bound to the island by secrets, debts, or bloodlines. Thompson has become the island's wealthiest man, but his fortune is built on something sinister. Wilson, the eldest fisherman, spent years investigating the pattern of disappearances. He discovered something that threatened to expose everything.<br><br>
-                
-                Three days ago, Wilson vanished. His coffee was still warm. His journal open to an unfinished sentence: "Going to confront—"<br><br>
-                
-                <strong>The Truth:</strong><br><br>
-                
-                There is no curse. There are no supernatural forces. Just a man who discovered that murder is profitable when disguised as mystery. For 50 years, Thompson has been eliminating anyone who threatens his empire - using the legend of the ritual as cover. Insurance fraud. Illegal loans. Blackmail. And now, one final murder to keep his secrets buried forever.<br><br>
-                
-                The island doesn't take sacrifices. Thompson does.
-            </div>
-        </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">Current Features</div>
-            <div class="modal-content">
-                <ul>
-                    <li><strong>✓ Living World:</strong> 7 main characters + 10 sheep roam the island with unique AI behaviors</li>
-                    <li><strong>✓ Deep Lore:</strong> Over 50+ character conversations revealing motives, secrets, and evidence</li>
-                    <li><strong>✓ Mystery System:</strong> 5 major mysteries to investigate, including password-protected files</li>
-                    <li><strong>✓ Voting Mechanic:</strong> Real-time community voting with 8-minute countdown</li>
-                    <li><strong>✓ Character Profiles:</strong> View awareness levels and complete conversation logs</li>
-                    <li><strong>✓ Interactive Map:</strong> Fully explorable island with collision detection</li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">🚀 Roadmap - What's Coming Next</div>
-            <div class="modal-content">
-                <ul>
-                    <li><strong>Day 2-7 System:</strong> The mystery evolves daily. New clues appear. Characters remember your interactions. Previous votes influence future events. The island changes based on community decisions.</li>
-                    <li><strong>Live AI Conversations:</strong> Talk directly to any character in real-time. They'll remember what you said, respond based on their personality, and may reveal secrets if you ask the right questions.</li>
-                    <li><strong>Dynamic Consequences:</strong> Vote wrong? Face the consequences. Characters die. New mysteries unlock. The island remembers. Every choice permanently alters the world.</li>
-                    <li><strong>Unlockable Locations:</strong> Discover hidden areas - the lighthouse, underwater caves, Thompson's mansion, the stone circle. Each location holds evidence that changes everything.</li>
-                    <li><strong>Character Relationships:</strong> Watch relationships evolve. Alliances form. Betrayals happen. Characters react to votes and accuse each other in real-time.</li>
-                    <li><strong>Multiple Endings:</strong> Your votes determine who survives. 7+ different endings based on who you eliminate and what you uncover. Can you save the innocent?</li>
-                    <li><strong>Voice Acting & Cutscenes:</strong> Fully voiced dialogue. Animated cutscenes reveal key moments. Witness murders, rituals, and confrontations.</li>
-                    <li><strong>NFT Integration:</strong> Own your character. Your choices become permanent on-chain. Trade evidence. Vote with tokens. The blockchain remembers everything.</li>
-                    <li><strong>Community Events:</strong> Real-time island-wide events. Storms reveal hidden evidence. Full moon rituals. Emergency town meetings where everyone votes together.</li>
-                    <li><strong>The Escape:</strong> Final chapter - identify the killer, gather proof, confront them, and escape the island... or become the next victim.</li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">How to Play</div>
-            <div class="modal-content">
-                <ul>
-                    <li><strong>Navigate:</strong> Use arrow keys (WASD) or drag the map to explore the entire island</li>
-                    <li><strong>Character Selection:</strong> Click character portraits at the bottom to instantly jump to their location</li>
-                    <li><strong>Character Profiles:</strong> Click directly on characters to view their profiles, awareness levels, and full conversation histories</li>
-                    <li><strong>Minimap:</strong> Click anywhere on the minimap to quickly travel to that location</li>
-                    <li><strong>Mystery Clues:</strong> Click on any mystery in the top-left clue box to investigate evidence and riddles</li>
-                    <li><strong>Locked Files:</strong> Find passwords hidden in character conversations to unlock crucial evidence</li>
-                    <li><strong>Vote:</strong> Cast your vote in the right panel before the 8-minute timer expires</li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">The Suspects</div>
-            <div class="modal-content">
-                <strong>Sarah</strong> - A friendly villager who knows the island well. But does she know too much?<br><br>
-                <strong>Marcus</strong> - A brave warrior protecting the island. Or is he protecting something else?<br><br>
-                <strong>Jack</strong> - A local fisherman with stories to tell. And debts to hide.<br><br>
-                <strong>Bernie</strong> - A passionate activist fighting for change. But embezzling donations for gambling?<br><br>
-                <strong>Shiba Inu</strong> - A loyal dog exploring the island. He keeps finding disturbing evidence...<br><br>
-                <strong>Takeshi</strong> - A traditional merchant trading goods. And trading secrets for $10k/month.<br><br>
-                <strong>Mr. Thompson</strong> - An old businessman with many secrets. The most suspicious of all.
-            </div>
-        </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">Tips for Solving the Mystery</div>
-            <div class="modal-content">
-                <ul>
-                    <li>Read ALL character conversations - vital clues are hidden throughout</li>
-                    <li>Look for patterns in the evidence - dates, numbers, and symbols matter</li>
-                    <li>The password to unlock Wilson's evidence is hidden in the conversations</li>
-                    <li>Pay attention to who benefits most from Wilson's disappearance</li>
-                    <li>Not everyone is lying, but everyone is hiding something</li>
-                    <li>The 1987 ritual is key to understanding the pattern</li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">🔍 Pro Tips - Advanced Strategies</div>
-            <div class="modal-content">
-                <ul>
-                    <li><strong>Follow the Money:</strong> Who benefits financially from Wilson's death? Look for insurance policies, property ownership changes, and outstanding debts throughout the conversations.</li>
-                    <li><strong>Watch Animal Behavior:</strong> Animals often sense things humans miss. Pay attention to who the dog avoids, who he attacks, and what evidence he keeps finding.</li>
-                    <li><strong>Look for Patterns:</strong> Certain numbers and dates keep appearing. When events repeat at specific intervals, it's rarely coincidence.</li>
-                    <li><strong>Everyone Has Secrets:</strong> Each character is hiding something. Some hide small crimes. One hides murder. Distinguish between guilty behavior and actual guilt.</li>
-                    <li><strong>The Password is Hidden:</strong> The locked file contains the definitive proof. The password is mentioned somewhere in the conversations - look for unusual combinations of words or numbers.</li>
-                    <li><strong>Cross-Reference Stories:</strong> Compare what different characters say about the same events. Who's lying? Who's telling partial truths? Contradictions reveal intent.</li>
-                    <li><strong>Time is Evidence:</strong> The timestamps on conversations matter. Who was where when? Who claims to have alibis that don't match the timeline?</li>
-                    <li><strong>Motive vs Opportunity:</strong> Many had reasons to want Wilson gone. But only one had both the means and the history to actually do it. Think bigger than just this murder.</li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="modal-section">
-            <div class="modal-section-title">❓ Frequently Asked Questions</div>
-            <div class="modal-content">
-                <ul>
-                    <li><strong>Can I change my vote?</strong> No, once you vote it's locked in. Choose carefully!</li>
-                    <li><strong>What happens when the timer ends?</strong> Voting closes and the verdict is revealed. The character with the most votes is declared guilty, and consequences will unfold in future days.</li>
-                    <li><strong>How do I unlock the password-protected file?</strong> The password is hidden in one of the character conversations. Look for mentions of years and rituals. Hint: Check what Takeshi or Shiba Inu found.</li>
-                    <li><strong>What do awareness levels mean?</strong> Each character has an awareness level (0-100%) showing how much they know about the mystery. Higher awareness = more dangerous to the killer.</li>
-                    <li><strong>Will there be more days/episodes?</strong> Yes! This is Day 1. Future updates will add Days 2-7, with new mysteries, character deaths, and evolving storylines based on your votes.</li>
-                    <li><strong>Can I play on mobile?</strong> The game works on mobile but is optimized for desktop. Mobile improvements are coming in future updates.</li>
-                    <li><strong>Is there really a correct answer?</strong> Yes. Wilson left evidence proving who the killer is. Unlock the password-protected file to see the truth.</li>
-                    <li><strong>What if I vote for the wrong person?</strong> An innocent person may die. The real killer remains free. Your choices have consequences in future episodes.</li>
-                </ul>
-            </div>
-        </div>
-        
     </div>
     
-    <div id="sidePanel">
-        <div class="panel-section">
-            <div class="panel-title">Day Tracker: Day 1</div>
-            <div class="panel-content">
-                <div class="stat-item">LIVE: ON X</div>
-                <div class="stat-item" style="font-size: 12px; cursor: pointer; background: rgba(245, 158, 11, 0.1); padding: 8px; border-radius: 4px; border: 1px solid rgba(245, 158, 11, 0.3);" onclick="copyCA()" title="Click to copy">
-                    <strong style="color: #fbbf24;">CA:</strong> <span id="caText">TBA</span>
-                </div>
-            </div>
-        </div>
-        
-        <div class="panel-section">
-            <div class="panel-title">Voting - Who is Guilty?</div>
-            <div class="panel-content">
-                <div class="stat-item"><strong>Time Remaining: <span id="countdown">8:00</span></strong></div>
-                <div style="margin-top: 12px;">
-                    <div class="vote-option" onclick="vote('Sarah')">
-                        <span class="vote-name">Sarah</span>
-                        <span class="vote-count" id="vote-Sarah">0</span>
-                    </div>
-                    <div class="vote-option" onclick="vote('Marcus')">
-                        <span class="vote-name">Marcus</span>
-                        <span class="vote-count" id="vote-Marcus">0</span>
-                    </div>
-                    <div class="vote-option" onclick="vote('Jack')">
-                        <span class="vote-name">Jack</span>
-                        <span class="vote-count" id="vote-Jack">0</span>
-                    </div>
-                    <div class="vote-option" onclick="vote('Bernie')">
-                        <span class="vote-name">Bernie</span>
-                        <span class="vote-count" id="vote-Bernie">0</span>
-                    </div>
-                    <div class="vote-option" onclick="vote('Shiba Inu')">
-                        <span class="vote-name">Shiba Inu</span>
-                        <span class="vote-count" id="vote-Shiba Inu">0</span>
-                    </div>
-                    <div class="vote-option" onclick="vote('Takeshi')">
-                        <span class="vote-name">Takeshi</span>
-                        <span class="vote-count" id="vote-Takeshi">0</span>
-                    </div>
-                    <div class="vote-option" onclick="vote('Mr. Thompson')">
-                        <span class="vote-name">Mr. Thompson</span>
-                        <span class="vote-count" id="vote-Mr. Thompson">0</span>
-                    </div>
-                </div>
-                <div id="guiltyAnnouncement" style="display: none; background: rgba(239, 68, 68, 0.3); border: 3px solid #ef4444; border-radius: 8px; padding: 15px; margin-top: 15px; text-align: center;">
-                    <div style="color: #fbbf24; font-size: 18px; font-weight: bold; margin-bottom: 8px;">🔴 GUILTY VERDICT 🔴</div>
-                    <div id="guiltyName" style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;"></div>
-                    <div id="guiltyReason" style="color: #cbd5e1; font-size: 13px; line-height: 1.5;"></div>
-                </div>
-            </div>
+    <div class="modal-section">
+        <div class="modal-section-title">谜团</div>
+        <div class="modal-content">
+            老威尔逊消失得无影无踪。岛上留下七个嫌疑人，每个人都有自己的动机、不在场证明和秘密。探索岛屿，阅读角色对话，解锁谜团文件，投票选出你认为有罪的人。你能在时间耗尽前破案吗？
         </div>
     </div>
+    
+    <div class="modal-section">
+        <div class="modal-section-title">📜 岛屿传说与背景故事</div>
+        <div class="modal-content">
+            <strong>岛屿的黑暗历史：</strong><br><br>
+            
+            凯恩岛不是一个普通的岛屿。一个多世纪以来，它一直被神秘失踪所困扰——总是在秋分期间，总是以13年为周期。当地人低声谈论古老的仪式、被诅咒的石圈，以及在满月时发出不自然光芒的水下洞穴。<br><br>
+            
+            <strong>1987年仪式：</strong><br><br>
+            
+            一切在1987年发生了变化。七个绝望的岛民——负债累累，面临破产——聚集在古老的石圈。他们举行了血祭仪式，向他们不理解的力量寻求繁荣。仪式奏效了...但要求了代价。一个人必须死，其他人才能繁荣。他们抽签。汤普森的弟弟输了。<br><br>
+            
+            那晚只有两个人活了下来：一个名叫汤普森的年轻商人，和武的祖父。其他人？他们就这么消失了。但汤普森的命运一夜之间改变了。几个月内，他拥有了岛屿的一半。幸存者立下了誓言：永远不要说起发生的事。永远不要回到石头那里。永远，永远不要深入调查过去。<br><br>
+            
+            <strong>七个居民：</strong><br><br>
+            
+            现在，几十年后，凯恩岛上还剩七个人——每个人都因秘密、债务或血统而被束缚在岛上。汤普森成为了岛上最富有的人，但他的财富建立在险恶的基础上。威尔逊，最年长的渔夫，花了多年时间调查失踪的模式。他发现了威胁要揭露一切的东西。<br><br>
+            
+            三天前，威尔逊消失了。他的咖啡还是温的。他的日记翻到未完成的一句话："去对质——"<br><br>
+            
+            <strong>真相：</strong><br><br>
+            
+            没有诅咒。没有超自然力量。只有一个发现伪装成谜团的谋杀是有利可图的人。50年来，汤普森一直在消除任何威胁他帝国的人——用仪式传说作为掩护。保险欺诈。非法贷款。勒索。现在，最后一次谋杀，永远埋葬他的秘密。<br><br>
+            
+            岛屿不索取祭品。汤普森索取。
+        </div>
+    </div>
+    
+    <div class="modal-section">
+        <div class="modal-section-title">当前功能</div>
+        <div class="modal-content">
+            <ul>
+                <li><strong>✓ 鲜活世界：</strong>7个主要角色 + 10只羊在岛上漫游，具有独特的AI行为</li>
+                <li><strong>✓ 深度传说：</strong>超过50+角色对话揭示动机、秘密和证据</li>
+                <li><strong>✓ 谜团系统：</strong>5个主要谜团需要调查，包括密码保护的文件</li>
+                <li><strong>✓ 投票机制：</strong>实时社区投票，8分钟倒计时</li>
+                <li><strong>✓ 角色档案：</strong>查看意识水平和完整对话记录</li>
+                <li><strong>✓ 互动地图：</strong>完全可探索的岛屿，带碰撞检测</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="modal-section">
+        <div class="modal-section-title">🚀 路线图 - 即将推出</div>
+        <div class="modal-content">
+            <ul>
+                <li><strong>第2-7天系统：</strong>谜团每天演变。新线索出现。角色记住你的互动。之前的投票影响未来事件。岛屿根据社区决定而改变。</li>
+                <li><strong>实时AI对话：</strong>直接与任何角色实时交谈。他们会记住你说的话，根据他们的个性回应，如果你问对问题可能会透露秘密。</li>
+                <li><strong>动态后果：</strong>投错票？面对后果。角色死亡。新谜团解锁。岛屿记住。每个选择都永久改变世界。</li>
+                <li><strong>可解锁地点：</strong>发现隐藏区域——灯塔、水下洞穴、汤普森的豪宅、石圈。每个地点都有改变一切的证据。</li>
+                <li><strong>角色关系：</strong>观察关系演变。联盟形成。背叛发生。角色对投票做出反应并实时互相指责。</li>
+                <li><strong>多重结局：</strong>你的投票决定谁生存。基于你消除谁和发现什么的7+不同结局。你能拯救无辜者吗？</li>
+                <li><strong>配音和过场动画：</strong>完全配音对话。动画过场动画揭示关键时刻。目睹谋杀、仪式和对抗。</li>
+                <li><strong>NFT集成：</strong>拥有你的角色。你的选择在链上永久化。交易证据。用代币投票。区块链记住一切。</li>
+                <li><strong>社区事件：</strong>实时岛屿范围事件。风暴揭示隐藏证据。满月仪式。紧急市政会议，每个人一起投票。</li>
+                <li><strong>逃离：</strong>最终章——识别凶手，收集证据，对抗他们，逃离岛屿...或成为下一个受害者。</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="modal-section">
+        <div class="modal-section-title">如何玩</div>
+        <div class="modal-content">
+            <ul>
+                <li><strong>导航：</strong>使用方向键（WASD）或拖动地图探索整个岛屿</li>
+                <li><strong>角色选择：</strong>点击底部的角色肖像立即跳转到他们的位置</li>
+                <li><strong>角色档案：</strong>直接点击角色查看他们的档案、意识水平和完整对话历史</li>
+                <li><strong>小地图：</strong>点击小地图上的任何位置快速移动到该地点</li>
+                <li><strong>谜团线索：</strong>点击左上角线索框中的任何谜团调查证据和谜语</li>
+                <li><strong>锁定文件：</strong>在角色对话中找到隐藏的密码以解锁关键证据</li>
+                <li><strong>投票：</strong>在8分钟计时器到期前在右侧面板投出你的选票</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="modal-section">
+        <div class="modal-section-title">嫌疑人</div>
+        <div class="modal-content">
+            <strong>莎拉</strong> - 一位熟悉岛屿的友好村民。但她知道得太多了吗？<br><br>
+            <strong>马库斯</strong> - 保护岛屿的勇敢战士。还是他在保护别的东西？<br><br>
+            <strong>杰克</strong> - 有故事可讲的当地渔夫。还有要隐藏的债务。<br><br>
+            <strong>伯尼</strong> - 为变革而战的激情活动家。但挪用捐款去赌博？<br><br>
+            <strong>柴犬</strong> - 在岛上探险的忠诚狗。它一直发现令人不安的证据...<br><br>
+            <strong>武</strong> - 经营商品贸易的传统商人。用秘密交易每月1万美元。<br><br>
+            <strong>汤普森先生</strong> - 有许多秘密的老商人。最可疑的一个。
+        </div>
+    </div>
+    
+    <div class="modal-section">
+        <div class="modal-section-title">解谜提示</div>
+        <div class="modal-content">
+            <ul>
+                <li>阅读所有角色对话——关键线索隐藏在整个对话中</li>
+                <li>寻找证据中的模式——日期、数字和符号很重要</li>
+                <li>解锁威尔逊证据的密码隐藏在对话中</li>
+                <li>注意谁从威尔逊的失踪中获益最多</li>
+                <li>不是每个人都在撒谎，但每个人都在隐藏些什么</li>
+                <li>1987年仪式是理解模式的关键</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="modal-section">
+        <div class="modal-section-title">🔍 专业提示 - 高级策略</div>
+        <div class="modal-content">
+            <ul>
+                <li><strong>跟着钱走：</strong>谁从威尔逊的死亡中获得经济利益？在整个对话中寻找保险单、财产所有权变更和未偿债务。</li>
+                <li><strong>观察动物行为：</strong>动物常常感知到人类错过的东西。注意狗避开谁、攻击谁，以及它一直发现什么证据。</li>
+                <li><strong>寻找模式：</strong>某些数字和日期不断出现。当事件以特定间隔重复时，很少是巧合。</li>
+                <li><strong>每个人都有秘密：</strong>每个角色都在隐藏些什么。有些人隐藏小罪行。一个人隐藏谋杀。区分有罪行为和实际罪行。</li>
+                <li><strong>密码是隐藏的：</strong>锁定文件包含确凿证据。密码在对话中的某处被提及——寻找不寻常的单词或数字组合。</li>
+                <li><strong>交叉参考故事：</strong>比较不同角色对同一事件的说法。谁在撒谎？谁在说部分真相？矛盾揭示意图。</li>
+                <li><strong>时间就是证据：</strong>对话上的时间戳很重要。谁在什么时候在哪里？谁声称有不符合时间线的不在场证明？</li>
+                <li><strong>动机vs机会：</strong>许多人有理由想让威尔逊消失。但只有一个人既有手段又有历史真正这么做。想得更大，不仅仅是这次谋杀。</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="modal-section">
+        <div class="modal-section-title">❓ 常见问题</div>
+        <div class="modal-content">
+            <ul>
+                <li><strong>我可以改变我的投票吗？</strong>不可以，一旦投票就锁定了。请谨慎选择！</li>
+                <li><strong>计时器结束时会发生什么？</strong>投票关闭，判决揭晓。获得最多票的角色被宣布有罪，后果将在未来几天展开。</li>
+                <li><strong>如何解锁密码保护文件？</strong>密码隐藏在某个角色对话中。寻找提及年份和仪式的内容。提示：查看武或柴犬发现了什么。</li>
+                <li><strong>意识水平是什么意思？</strong>每个角色都有一个意识水平（0-100%），显示他们对谜团了解多少。意识越高=对凶手越危险。</li>
+                <li><strong>会有更多天/剧集吗？</strong>会的！这是第一天。未来更新将添加第2-7天，包括新谜团、角色死亡，以及基于你的投票的演变故事线。</li>
+                <li><strong>我可以在手机上玩吗？</strong>游戏在手机上可以运行，但为桌面优化。手机改进将在未来更新中推出。</li>
+                <li><strong>真的有正确答案吗？</strong>有的。威尔逊留下了证明谁是凶手的证据。解锁密码保护文件以查看真相。</li>
+                <li><strong>如果我投错人怎么办？</strong>无辜者可能会死。真正的凶手仍然逍遥法外。你的选择在未来剧集中会有后果。</li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
 
     <script>
         const canvas = document.getElementById('gameCanvas');
@@ -1745,8 +1690,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Sarah",
-                description: "A friendly villager who knows the island well.",
+                name: "莎拉",,
+                description: "一位熟悉岛屿的友好村民。",
                 type: "human"
             });
             
@@ -1768,8 +1713,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Marcus",
-                description: "A brave warrior protecting the island.",
+                name: "马库斯",
+                description: "保护岛屿的勇敢战士。",
                 type: "human"
             });
             
@@ -1791,8 +1736,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Jack",
-                description: "A local fisherman with stories to tell.",
+                name: "杰克",
+                description: "有故事可讲的当地渔夫。",
                 type: "human"
             });
             
@@ -1814,8 +1759,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Bernie",
-                description: "A passionate activist fighting for change.",
+                name: "伯尼",
+                description: "为变革而战的激情活动家。",
                 type: "human"
             });
             
@@ -1837,8 +1782,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Shiba Inu",
-                description: "A loyal Shiba Inu exploring the island.",
+                name: "柴犬",
+                description: "在岛上探险的忠诚柴犬。",,
                 type: "human"
             });
             
@@ -1860,8 +1805,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Takeshi",
-                description: "A traditional Japanese merchant trading goods.",
+                name: "武",
+                description: "传统日本商人经营商品贸易。",
                 type: "human"
             });
             
@@ -1883,8 +1828,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Mr. Thompson",
-                description: "An old businessman with many secrets.",
+                name: "汤普森先生",
+                description: "有许多秘密的老商人。",
                 type: "human"
             });
             
@@ -2080,402 +2025,358 @@
             const conversationsSection = document.getElementById('conversationsSection');
             conversationsSection.innerHTML = '';
             
-            const characterConversations = {
-                "Shiba Inu": [
-                    {
-                        timestamp: '10/10/2025, 16:20:50',
-                        from: 'Jack',
-                        to: 'Shiba Inu',
-                        text: 'Easy boy, easy! What is it? What do you smell near the caves? I have never seen you this scared... Wait, you keep scratching at Thompson gate. You only do that when you smell blood. Oh god.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 14:55:33',
-                        from: 'Sarah',
-                        to: 'Shiba Inu',
-                        text: 'Shiba Inu refuses to go near the northern beach. He whimpers and pulls away with such force he nearly broke his leash. Dogs know things we do not. But he keeps bringing me pieces of torn fabric - expensive fabric, like from Thompson suits. And they are stained with something dark.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 12:08:44',
-                        from: 'Marcus',
-                        to: 'Shiba Inu',
-                        text: 'Found Shiba Inu digging frantically near the old stone circle. He uncovered a torn piece of Wilson jacket - covered in some kind of dark residue that does not wash off. But underneath it was a business card: "Thompson & Associates - Debts Collected, Secrets Kept."'
-                    },
-                    {
-                        timestamp: '10/09/2025, 22:40:11',
-                        from: 'Shiba Inu',
-                        to: 'Jack',
-                        text: 'At 3:47 AM, Shiba Inu woke the entire household howling at the moon. Pointing toward the lighthouse. Would not stop until sunrise. His paws were muddy - the same red clay from the quarry where Wilson jacket was found.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 17:33:28',
-                        from: 'Takeshi',
-                        to: 'Shiba Inu',
-                        text: 'Shiba Inu led me to a hidden cache near the temple ruins. Inside: Wilson glasses, a strange metallic device, and a map with the stone circle marked in blood. But there was also a note: "If you are reading this, I am already gone. The answer lies in who benefits most from my silence. Follow the money, not the mystery. Password: 1987RITUAL"'
-                    },
-                    {
-                        timestamp: '10/09/2025, 15:44:18',
-                        from: 'Bernie',
-                        to: 'Shiba Inu',
-                        text: 'Shiba Inu attacked Thompson today - lunged right at him, teeth bared. We had to pull him off. Thompson sleeve was torn and... there were fresh scratches on his arms. Old scratches too, like from a struggle. Thompson laughed it off but his hands were shaking.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 09:22:55',
-                        from: 'Sarah',
-                        to: 'Shiba Inu',
-                        text: 'Shiba Inu found a buried lockbox near the shore. Inside were photos of all seven of us, each with a red X through our faces except Thompson. And a riddle: "Seven sins, one judge. Seven lives, one grudge. When the eighth seeks truth, the first will erase the proof."'
-                    }
-                ],
-                "Sarah": [
-                    {
-                        timestamp: '10/10/2025, 15:59:32',
-                        from: 'Sarah',
-                        to: 'Marcus',
-                        text: 'Marcus, I am really worried. Old Man Wilson has not been at the market for three days. You know he never misses market day... I found this note at his stall: "When seven stand in circle round, the eighth shall never be found." What does that mean?'
-                    },
-                    {
-                        timestamp: '10/10/2025, 14:30:15',
-                        from: 'Marcus',
-                        to: 'Sarah',
-                        text: 'I know. I checked his usual fishing spot this morning. His favorite chair was there but no sign of him. His tackle box was open, like he left in a hurry. There were muddy footprints leading away... but they looked strange, like someone was dragging something heavy.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 13:15:44',
-                        from: 'Sarah',
-                        to: 'Bernie',
-                        text: 'Bernie, I saw you arguing with Wilson at the town hall meeting last week. You were shouting about "exposing the truth" and he looked terrified. What was that about?'
-                    },
-                    {
-                        timestamp: '10/10/2025, 11:22:08',
-                        from: 'Sarah',
-                        to: 'Jack',
-                        text: 'Jack, when was the last time you saw Wilson? Did he mention going anywhere unusual? I also need to ask... why was your boat at the north dock at 2 AM three nights ago? Mrs. Chen saw it from her window.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 18:20:41',
-                        from: 'Jack',
-                        to: 'Sarah',
-                        text: 'Two nights ago, around sunset. He was muttering something about "the pattern in the stones" and heading toward the old lighthouse. Seemed agitated. He kept saying "The one who profits from silence will be revealed by their silver tongue." Strange, right?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 16:45:12',
-                        from: 'Sarah',
-                        to: 'Takeshi',
-                        text: 'Takeshi, did not your grandfather mention something about the lighthouse in his journals? Also, I found Wilson glasses near your shop. Can you explain that?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 14:33:28',
-                        from: 'Sarah',
-                        to: 'Mr. Thompson',
-                        text: 'Thompson, I know you and Wilson had a business dispute. Something about land deeds from 1987? You were overheard saying "He knows too much and he will regret it." Care to elaborate?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 12:18:55',
-                        from: 'Sarah',
-                        to: 'Shiba Inu',
-                        text: 'Shiba Inu led me to Wilson torn jacket this morning. It was covered in red clay - the kind only found near the old quarry. But here is the strange part: there were also traces of expensive cologne on it. Who on this island wears cologne?'
-                    }
-                ],
-                "Marcus": [
-                    {
-                        timestamp: '10/10/2025, 16:45:22',
-                        from: 'Marcus',
-                        to: 'Bernie',
-                        text: 'Bernie, I found Wilson fishing rod by the north dock. The line was cut clean, not broken. Someone or something cut it deliberately. I also found your protest flyer in his boat. You wrote "The truth will set us free, but first it will destroy those who hide it."'
-                    },
-                    {
-                        timestamp: '10/10/2025, 15:20:18',
-                        from: 'Marcus',
-                        to: 'Jack',
-                        text: 'Jack, your story does not add up. You said you were out fishing when Wilson disappeared, but your nets were completely dry when I checked them. Where were you really? And why do you keep avoiding eye contact?'
-                    },
-                    {
-                        timestamp: '10/10/2025, 12:15:08',
-                        from: 'Takeshi',
-                        to: 'Marcus',
-                        text: 'Marcus, I need to tell you something. Last night I saw lights near the forest clearing. Not lanterns - they were moving in geometric patterns, like a ritual. And I heard chanting... it sounded like Thompson voice mixed with others.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 09:33:44',
-                        from: 'Marcus',
-                        to: 'Mr. Thompson',
-                        text: 'Thompson, you have lived here the longest. Has anything like this happened before? People disappearing without a trace? Also, why did you pay off Wilson mortgage last month? What did you want from him in return?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 20:30:55',
-                        from: 'Mr. Thompson',
-                        to: 'Marcus',
-                        text: 'Stop digging, Marcus. Some secrets are buried for a reason. My father made me promise never to speak of 1987. "The guardian must remain silent, or become the sacrifice" - those were his exact words. Heed them.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 14:18:29',
-                        from: 'Marcus',
-                        to: 'Sarah',
-                        text: 'I found fresh boot prints leading from Wilson house to the caves. But they just... stop. Like he vanished mid-step. Sarah, I need to tell you something - I found a journal entry from 1987. It lists seven names. Six are dead. Thompson is the seventh. Wilson would have been the eighth.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 11:45:33',
-                        from: 'Marcus',
-                        to: 'Takeshi',
-                        text: 'Takeshi, I saw you burning papers behind your shop last night. Old documents with Wilson signature on them. Business contracts? Debts? What are you hiding? Your hands were shaking when you saw me.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 08:22:16',
-                        from: 'Marcus',
-                        to: 'Bernie',
-                        text: 'Bernie, someone told me you threatened Wilson two weeks ago. Said if he did not join your "movement," there would be consequences. Is activism your real motive, or is there something darker?'
-                    }
-                ],
-                "Jack": [
-                    {
-                        timestamp: '10/10/2025, 17:10:33',
-                        from: 'Jack',
-                        to: 'Sarah',
-                        text: 'Sarah, something is wrong with the water. I heard footsteps on my boat deck last night - heavy, deliberate steps. But when I checked, nobody was there. Just wet footprints leading to the edge and stopping. They smelled like that expensive soap Thompson uses.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 13:42:19',
-                        from: 'Jack',
-                        to: 'Marcus',
-                        text: 'The fish have completely abandoned the north bay. In 40 years of fishing, I have never seen this. They are avoiding something down there. Marcus, you have to believe me - I may have debts, but I would never hurt Wilson. Even if he refused to loan me money.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 11:55:27',
-                        from: 'Jack',
-                        to: 'Bernie',
-                        text: 'Bernie, I saw you and Takeshi meeting in secret at the old pier last week. You handed him a thick envelope. He looked scared. What is going on? Are you two working together on something? Wilson saw you too - he told me.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 10:28:55',
-                        from: 'Shiba Inu',
-                        to: 'Jack',
-                        text: 'Shiba Inu barks frantically while staring at the old pier, hackles raised. Refuses to go near the water edge. He keeps digging at a spot where the planks are loose... there is something buried underneath.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 19:55:44',
-                        from: 'Jack',
-                        to: 'Bernie',
-                        text: 'Bernie, I pulled up my nets this morning. They were shredded, but not by any fish or shark I know. The cuts were too precise, almost surgical. Like someone used a very sharp knife. I found a piece of fabric caught in them - looks like part of an expensive suit.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 08:15:22',
-                        from: 'Jack',
-                        to: 'Takeshi',
-                        text: 'Those symbols you mentioned - I saw them too. Carved into the underside of the pier. They glow faintly at night. I am not imagining it. But here is the thing: I saw YOU carving something similar into a post three weeks ago. You said it was "for protection." Protection from what?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 06:40:11',
-                        from: 'Jack',
-                        to: 'Mr. Thompson',
-                        text: 'Thompson, I know about the insurance policy you took out on Wilson. 500000 dollars with you as the beneficiary. Wilson told me himself - he was terrified. Said you made him sign it after settling his debts. "Insurance" or something darker?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 05:18:33',
-                        from: 'Jack',
-                        to: 'Sarah',
-                        text: 'I need to come clean about something. Wilson found out I was smuggling goods to pay my debts. He threatened to report me unless I helped him investigate "the conspiracy." But I swear I did not hurt him. The riddle he gave me makes no sense: "The merchant sells truth, the activist buys lies, the elder keeps secrets, but who profits when wisdom dies?"'
-                    }
-                ],
-                "Bernie": [
-                    {
-                        timestamp: '10/10/2025, 18:25:17',
-                        from: 'Bernie',
-                        to: 'Sarah',
-                        text: 'We need to organize a proper search party NOW. Wilson would not just disappear. I checked his house - the door was unlocked, coffee still warm on the table. He left in a panic. But Sarah... I need to confess something. Wilson discovered I have been embezzling donations from my activist fund. He said he would expose me unless I dropped my investigation into Thompson company.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 11:30:42',
-                        from: 'Bernie',
-                        to: 'Marcus',
-                        text: 'Marcus, I found Wilson journal in his study. The last entry from yesterday says: "They were right. The convergence is real. I saw them at the stones. Going to confront—" That is where it ends. Pen still on the page. But there is another entry from a week ago: "B knows about the money. T knows about 1987. J owes me 50k. One of them will crack first."'
-                    },
-                    {
-                        timestamp: '10/10/2025, 07:44:18',
-                        from: 'Mr. Thompson',
-                        to: 'Bernie',
-                        text: 'Stop asking questions, Bernie. Stop organizing searches. Some things are better left alone on this island. Your activism will get people killed. I know what you did with those donation funds. I know about your gambling debts. Keep quiet or join Wilson.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 21:18:29',
-                        from: 'Bernie',
-                        to: 'Takeshi',
-                        text: 'Takeshi, Thompson is hiding something. He threatened me today - told me to "leave the past buried" or I would "join the others". What others? And why were you at his estate at midnight last Tuesday? I saw your delivery truck there. What were you delivering?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 15:52:07',
-                        from: 'Bernie',
-                        to: 'Jack',
-                        text: 'I went through the town archives. There is a pattern - every 13 years someone disappears during the autumn equinox. Records go back to 1896. This year is year 13 again. Jack, you asked Wilson for a huge loan two weeks before he vanished. He refused. That is motive.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 13:28:44',
-                        from: 'Bernie',
-                        to: 'Marcus',
-                        text: 'Marcus, I found something disturbing. Wilson had photographs of all seven of us. Behind each photo, he wrote notes: "The warrior seeks justice but hides his past crimes. The activist preaches truth but steals from the poor. The merchant deals in secrets. The fisherman drowns in debt." Who is he accusing?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 10:15:39',
-                        from: 'Bernie',
-                        to: 'Takeshi',
-                        text: 'Your grandfather journal mentions "The Seven Must Never Become Six." But we are already seven, and Wilson is the eighth. Unless... unless one of us is not who they claim to be. Takeshi, your papers say you arrived 3 years ago, but I found shipping records with your name from 1987.'
-                    }
-                ],
-                "Hachi": [
-                    {
-                        timestamp: '10/10/2025, 16:20:50',
-                        from: 'Jack',
-                        to: 'Hachi',
-                        text: 'Easy boy, easy! What is it? What do you smell near the caves? I have never seen you this scared... Wait, you keep scratching at Thompson gate. You only do that when you smell blood. Oh god.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 14:55:33',
-                        from: 'Sarah',
-                        to: 'Hachi',
-                        text: 'Hachi refuses to go near the northern beach. He whimpers and pulls away with such force he nearly broke his leash. Dogs know things we do not. But he keeps bringing me pieces of torn fabric - expensive fabric, like from Thompson suits. And they are stained with something dark.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 12:08:44',
-                        from: 'Marcus',
-                        to: 'Shiba Inu',
-                        text: 'Found Shiba Inu digging frantically near the old stone circle. He uncovered a torn piece of Wilson jacket - covered in some kind of dark residue that does not wash off. But underneath it was a business card: "Thompson & Associates - Debts Collected, Secrets Kept."'
-                    },
-                    {
-                        timestamp: '10/09/2025, 22:40:11',
-                        from: 'Hachi',
-                        to: 'Jack',
-                        text: 'At 3:47 AM, Hachi woke the entire household howling at the moon. Pointing toward the lighthouse. Would not stop until sunrise. His paws were muddy - the same red clay from the quarry where Wilson jacket was found.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 17:33:28',
-                        from: 'Takeshi',
-                        to: 'Hachi',
-                        text: 'Hachi led me to a hidden cache near the temple ruins. Inside: Wilson glasses, a strange metallic device, and a map with the stone circle marked in blood. But there was also a note: "If you are reading this, I am already gone. The answer lies in who benefits most from my silence. Follow the money, not the mystery. Password: 1987RITUAL"'
-                    },
-                    {
-                        timestamp: '10/09/2025, 15:44:18',
-                        from: 'Bernie',
-                        to: 'Hachi',
-                        text: 'Hachi attacked Thompson today - lunged right at him, teeth bared. We had to pull him off. Thompson sleeve was torn and... there were fresh scratches on his arms. Old scratches too, like from a struggle. Thompson laughed it off but his hands were shaking.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 09:22:55',
-                        from: 'Sarah',
-                        to: 'Hachi',
-                        text: 'Hachi found a buried lockbox near the shore. Inside were photos of all seven of us, each with a red X through our faces except Thompson. And a riddle: "Seven sins, one judge. Seven lives, one grudge. When the eighth seeks truth, the first will erase the proof."'
-                    }
-                ],
-                "Takeshi": [
-                    {
-                        timestamp: '10/10/2025, 15:35:28',
-                        from: 'Takeshi',
-                        to: 'Sarah',
-                        text: 'Sarah, I finally translated my grandfather journals. He wrote about "The Convergence" - when the veil between worlds thins. He documented disappearances in 1961, 1974, 1987, 2000, 2013... Tonight is the next convergence. But there is more: "The one who bears the mark of prosperity will demand the ultimate price. Beware the elder who wears two faces."'
-                    },
-                    {
-                        timestamp: '10/10/2025, 10:20:44',
-                        from: 'Takeshi',
-                        to: 'Bernie',
-                        text: 'Look at this symbol I found carved into the dock post. It was not there yesterday, I am certain. It is the same one from my grandfather warning about the "Watchers." Bernie, I need to tell you - Thompson has been buying up all the land where these symbols appear. He knew about them before the rest of us.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 08:15:33',
-                        from: 'Jack',
-                        to: 'Takeshi',
-                        text: 'Takeshi, what do those old symbols mean? I keep seeing them everywhere - on trees, rocks, even scratched into the hull of my boat. They are multiplying. You said they were "protection wards" but Wilson told me they are actually markers. Markers for what?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 23:15:37',
-                        from: 'Takeshi',
-                        to: 'Marcus',
-                        text: 'The symbols form a map when you overlay them. They all point to the underwater caves beneath the lighthouse. My grandfather final entry warns: "Never enter when the moon is full." But I lied to you all. I have been inside. I saw things... evidence. Evidence of what Thompson has been doing for decades.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 19:42:55',
-                        from: 'Takeshi',
-                        to: 'Mr. Thompson',
-                        text: 'I know you were there in 1987, Thompson. I found the photograph - you, my grandfather, and three others at the stone circle. Only you and grandfather survived. What happened? And why are you paying me 10000 dollars a month to keep quiet about the shipping manifests I found?'
-                    },
-                    {
-                        timestamp: '10/09/2025, 14:28:11',
-                        from: 'Takeshi',
-                        to: 'Jack',
-                        text: 'Jack, I need to come clean. Those symbols I have been carving - they are not for protection. They are warnings. My grandfather left instructions: "Mark where the bodies lie so the living may know to flee." There are 6 marks around the island. Soon there will be 7.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 11:50:44',
-                        from: 'Takeshi',
-                        to: 'Bernie',
-                        text: 'Bernie, you asked about my shipping records from 1987. You are right - I should not have been here. But it was my father, not me. He used my name as an alias when he fled Japan. He witnessed something terrible here and Thompson paid him to disappear. Now Thompson owns me too. The riddle my father left: "The hand that gives can also take away."'
-                    }
-                ],
-                "Mr. Thompson": [
-                    {
-                        timestamp: '10/10/2025, 19:40:55',
-                        from: 'Sarah',
-                        to: 'Mr. Thompson',
-                        text: 'Thompson, why will you not help us look for Wilson? You two have been friends for decades! What are you so afraid of? Or are you afraid of what we might find? I saw the contract - Wilson owed you everything. His house, his boat, his land. All in your name now.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 09:15:22',
-                        from: 'Mr. Thompson',
-                        to: 'Marcus',
-                        text: 'I warned Wilson to stop investigating the stones. I told him what happened in 87. Some doors, once opened, can never be closed again. He did not listen. Now it is too late. Marcus, I will be honest with you - I profited from every disappearance. Real estate values drop, I buy, then they rise again. It is just business. But I did not kill anyone.'
-                    },
-                    {
-                        timestamp: '10/10/2025, 06:33:47',
-                        from: 'Mr. Thompson',
-                        to: 'Bernie',
-                        text: 'Your search party will only add more names to the memorial stone. I have seen this before. The island takes what it is owed. Every. Thirteen. Years. Bernie, I know about your debts. 200000 dollars to the casino. I can make them disappear if you stop this investigation. Think about it.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 17:50:18',
-                        from: 'Mr. Thompson',
-                        to: 'Takeshi',
-                        text: 'Your grandfather knew the truth. He kept it secret for a reason. The island has rules. Break them and you do not just die - you become part of it. Forever watching. Forever waiting. But between you and me, Takeshi - these are not supernatural deaths. They are very human. Very profitable. And yes, I have orchestrated every single one since 1974.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 13:28:44',
-                        from: 'Mr. Thompson',
-                        to: 'Jack',
-                        text: 'Stay away from the northern waters, Jack. Especially tonight. What lives in those caves is not natural. I lost my brother to them in 1987. Do not make me watch it happen again. Also, Jack - I know about the smuggling. I know about the debts. Wilson knew too. He was going to expose both of us. You had just as much motive as I did.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 10:44:33',
-                        from: 'Mr. Thompson',
-                        to: 'Sarah',
-                        text: 'Sarah, you are a smart woman. You see the patterns. Let me give you a riddle Wilson left for me: "When seven stand accused and one holds the knife, who is guilty - the blade or those who gave it life?" Everyone here had a reason to want Wilson gone. Everyone here is guilty of something.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 08:17:55',
-                        from: 'Mr. Thompson',
-                        to: 'Marcus',
-                        text: 'Marcus, I know you found my ledgers. Yes, I loaned money to everyone in this town. Yes, I collect with interest. Yes, Wilson discovered I have been charging 40 percent rates, which is illegal. He threatened to report me to federal authorities. That would destroy me. But I have an alibi - I was at the mainland bank all day when he vanished.'
-                    },
-                    {
-                        timestamp: '10/09/2025, 05:33:21',
-                        from: 'Mr. Thompson',
-                        to: 'Bernie',
-                        text: 'Bernie, let me tell you what really happened in 1987. Seven people performed a ritual at the stones - trying to summon prosperity. It worked. But the price was blood. One person had to die for the others to prosper. We drew straws. My brother lost. I have carried that guilt ever since. Wilson figured it out. He wanted to expose us all - you, me, Takeshi grandfather, Jack father.'
-                    }
-                ]
-            };
+const characterConversations = {
+    "柴犬": [
+        {
+            timestamp: '10/10/2025, 16:20:50',
+            from: '杰克',
+            to: '柴犬',
+            text: '乖孩子，乖！那是什么？你在洞穴附近闻到了什么？我从没见你这么害怕过...等等，你一直在抓汤普森的大门。你只有闻到血腥味时才会这样。天啊。'
+        },
+        {
+            timestamp: '10/10/2025, 14:55:33',
+            from: '莎拉',
+            to: '柴犬',
+            text: '柴犬拒绝靠近北部海滩。它呜咽着用力挣扎，差点挣断了皮带。狗能感知到我们感知不到的东西。但它一直给我带来撕破的布料碎片——昂贵的布料，就像汤普森西装上的那种。而且上面沾着黑色的东西。'
+        },
+        {
+            timestamp: '10/10/2025, 12:08:44',
+            from: '马库斯',
+            to: '柴犬',
+            text: '发现柴犬在古老的石圈附近疯狂挖掘。它挖出了威尔逊夹克的一块碎片——上面覆盖着某种洗不掉的黑色残留物。但在下面是一张名片："汤普森联合公司——收债，保密。"'
+        },
+        {
+            timestamp: '10/09/2025, 22:40:11',
+            from: '柴犬',
+            to: '杰克',
+            text: '凌晨3点47分，柴犬对着月亮嚎叫，惊醒了整个家庭。指向灯塔方向。直到日出才停止。它的爪子沾满了泥土——和在采石场发现威尔逊夹克的地方一样的红色粘土。'
+        },
+        {
+            timestamp: '10/09/2025, 17:33:28',
+            from: '武',
+            to: '柴犬',
+            text: '柴犬带我到寺庙废墟附近的一个隐藏的藏匿处。里面有：威尔逊的眼镜，一个奇怪的金属装置，还有一张标记着石圈的地图，用血标记的。但还有一张纸条："如果你正在读这个，我已经死了。答案在于谁从我的沉默中获益最多。跟着钱走，而不是谜团。密码：1987RITUAL"'
+        },
+        {
+            timestamp: '10/09/2025, 15:44:18',
+            from: '伯尼',
+            to: '柴犬',
+            text: '今天柴犬攻击了汤普森——扑向他，露出牙齿。我们不得不把它拉开。汤普森的袖子被撕破了，而且...他的胳膊上有新鲜的抓痕。还有旧的抓痕，像是搏斗留下的。汤普森笑着说没事，但他的手在发抖。'
+        },
+        {
+            timestamp: '10/09/2025, 09:22:55',
+            from: '莎拉',
+            to: '柴犬',
+            text: '柴犬在岸边发现了一个埋藏的保险箱。里面是我们七个人的照片，每张照片上都画着红色的X，除了汤普森。还有一个谜语："七罪一审判。七命一恨意。当第八者寻真相，第一者将抹证据。"'
+        }
+    ],
+    "莎拉": [
+        {
+            timestamp: '10/10/2025, 15:59:32',
+            from: '莎拉',
+            to: '马库斯',
+            text: '马库斯，我真的很担心。老威尔逊已经三天没来市场了。你知道他从不错过市场日...我在他的摊位上发现了这张纸条："当七人围成圈站立，第八人将永不被找到。"这是什么意思？'
+        },
+        {
+            timestamp: '10/10/2025, 14:30:15',
+            from: '马库斯',
+            to: '莎拉',
+            text: '我知道。今天早上我去查看了他常去的钓鱼点。他最喜欢的椅子在那里，但不见他的踪影。他的钓具箱是开着的，好像他匆忙离开了。有泥泞的脚印通向远处...但看起来很奇怪，像是有人拖着什么重物。'
+        },
+        {
+            timestamp: '10/10/2025, 13:15:44',
+            from: '莎拉',
+            to: '伯尼',
+            text: '伯尼，上周我看到你在市政厅会议上和威尔逊争吵。你在喊"揭露真相"，他看起来很害怕。那是关于什么的？'
+        },
+        {
+            timestamp: '10/10/2025, 11:22:08',
+            from: '莎拉',
+            to: '杰克',
+            text: '杰克，你最后一次见到威尔逊是什么时候？他有提到去什么不寻常的地方吗？我还需要问...为什么三天前凌晨2点你的船在北码头？陈太太从她的窗户看到了。'
+        },
+        {
+            timestamp: '10/09/2025, 18:20:41',
+            from: '杰克',
+            to: '莎拉',
+            text: '两天前，大约日落时分。他在嘟囔着"石头中的图案"之类的话，朝着旧灯塔走去。看起来很焦虑。他一直在说"从沉默中获利的人将被他们的银舌揭露。"很奇怪，对吧？'
+        },
+        {
+            timestamp: '10/09/2025, 16:45:12',
+            from: '莎拉',
+            to: '武',
+            text: '武，你祖父的日记里不是提到过灯塔的事吗？另外，我在你店附近发现了威尔逊的眼镜。你能解释一下吗？'
+        },
+        {
+            timestamp: '10/09/2025, 14:33:28',
+            from: '莎拉',
+            to: '汤普森先生',
+            text: '汤普森，我知道你和威尔逊有商业纠纷。关于1987年的土地契约？有人听到你说"他知道得太多了，他会后悔的。"能详细说明一下吗？'
+        },
+        {
+            timestamp: '10/09/2025, 12:18:55',
+            from: '莎拉',
+            to: '柴犬',
+            text: '今天早上柴犬带我找到了威尔逊被撕破的夹克。上面覆盖着红色粘土——只有旧采石场附近才有的那种。但奇怪的是：上面还有昂贵香水的痕迹。这岛上谁用香水？'
+        }
+    ],
+    "马库斯": [
+        {
+            timestamp: '10/10/2025, 16:45:22',
+            from: '马库斯',
+            to: '伯尼',
+            text: '伯尼，我在北码头发现了威尔逊的鱼竿。钓线被整齐地割断了，不是断掉的。有人或某物故意割断了它。我还在他的船上发现了你的抗议传单。你写道："真相会让我们自由，但首先它会摧毁那些隐藏它的人。"'
+        },
+        {
+            timestamp: '10/10/2025, 15:20:18',
+            from: '马库斯',
+            to: '杰克',
+            text: '杰克，你的故事说不通。你说威尔逊失踪时你在外面钓鱼，但我检查时你的渔网完全是干的。你到底在哪里？为什么你一直避免眼神接触？'
+        },
+        {
+            timestamp: '10/10/2025, 12:15:08',
+            from: '武',
+            to: '马库斯',
+            text: '马库斯，我需要告诉你一些事。昨晚我在森林空地附近看到了灯光。不是灯笼——它们以几何图案移动，像是仪式。我听到了吟唱...听起来像汤普森的声音混合着其他人的声音。'
+        },
+        {
+            timestamp: '10/10/2025, 09:33:44',
+            from: '马库斯',
+            to: '汤普森先生',
+            text: '汤普森，你在这里住得最久。以前发生过这样的事吗？人们无影无踪地消失？另外，为什么你上个月还清了威尔逊的抵押贷款？你想从他那里得到什么作为回报？'
+        },
+        {
+            timestamp: '10/09/2025, 20:30:55',
+            from: '汤普森先生',
+            to: '马库斯',
+            text: '别再挖了，马库斯。有些秘密被埋葬是有原因的。我父亲让我发誓永远不要说起1987年的事。"守护者必须保持沉默，否则成为祭品"——这是他的原话。听从它们。'
+        },
+        {
+            timestamp: '10/09/2025, 14:18:29',
+            from: '马库斯',
+            to: '莎拉',
+            text: '我发现从威尔逊家到洞穴的新鲜靴印。但它们就这么...停了。就像他在半步中消失了。莎拉，我需要告诉你一些事——我找到了一篇1987年的日记。上面列出了七个名字。六个人死了。汤普森是第七个。威尔逊本来会是第八个。'
+        },
+        {
+            timestamp: '10/09/2025, 11:45:33',
+            from: '马库斯',
+            to: '武',
+            text: '武，我看到你昨晚在你店后面烧纸。上面有威尔逊签名的旧文件。商业合同？债务？你在隐藏什么？你看到我时手在发抖。'
+        },
+        {
+            timestamp: '10/09/2025, 08:22:16',
+            from: '马库斯',
+            to: '伯尼',
+            text: '伯尼，有人告诉我你两周前威胁过威尔逊。说如果他不加入你的"运动"，就会有后果。行动主义是你的真正动机，还是有更黑暗的东西？'
+        }
+    ],
+    "杰克": [
+        {
+            timestamp: '10/10/2025, 17:10:33',
+            from: '杰克',
+            to: '莎拉',
+            text: '莎拉，水有些不对劲。昨晚我听到我的船甲板上有脚步声——沉重、有意的脚步。但当我检查时，没有人在那里。只有湿脚印通向边缘然后停止。它们闻起来像汤普森用的那种昂贵肥皂。'
+        },
+        {
+            timestamp: '10/10/2025, 13:42:19',
+            from: '杰克',
+            to: '马库斯',
+            text: '鱼类完全放弃了北湾。在我40年的捕鱼生涯中，从未见过这种情况。它们在避开那里的某样东西。马库斯，你必须相信我——我可能有债务，但我永远不会伤害威尔逊。即使他拒绝借钱给我。'
+        },
+        {
+            timestamp: '10/10/2025, 11:55:27',
+            from: '杰克',
+            to: '伯尼',
+            text: '伯尼，上周我看到你和武在旧码头秘密会面。你递给他一个厚厚的信封。他看起来很害怕。这是怎么回事？你们两个在合作做什么吗？威尔逊也看到了——他告诉我了。'
+        },
+        {
+            timestamp: '10/10/2025, 10:28:55',
+            from: '柴犬',
+            to: '杰克',
+            text: '柴犬疯狂地吠叫着盯着旧码头，毛发竖起。拒绝靠近水边。它一直在挖一个木板松动的地方...下面埋着什么东西。'
+        },
+        {
+            timestamp: '10/09/2025, 19:55:44',
+            from: '杰克',
+            to: '伯尼',
+            text: '伯尼，今天早上我拉起渔网。它们被撕碎了，但不是被我认识的任何鱼或鲨鱼。切口太精确了，几乎是外科手术式的。就像有人用非常锋利的刀。我发现一块布料被挂在上面——看起来像是昂贵西装的一部分。'
+        },
+        {
+            timestamp: '10/09/2025, 08:15:22',
+            from: '杰克',
+            to: '武',
+            text: '你提到的那些符号——我也看到了。刻在码头下面。它们在夜里微微发光。我不是在想象。但问题是：三周前我看到你在柱子上刻类似的东西。你说这是"为了保护"。保护什么？'
+        },
+        {
+            timestamp: '10/09/2025, 06:40:11',
+            from: '杰克',
+            to: '汤普森先生',
+            text: '汤普森，我知道你为威尔逊投保的保险单。50万美元，受益人是你。威尔逊亲口告诉我——他很害怕。说你在解决他的债务后强迫他签的。"保险"还是更黑暗的东西？'
+        },
+        {
+            timestamp: '10/09/2025, 05:18:33',
+            from: '杰克',
+            to: '莎拉',
+            text: '我需要坦白一些事。威尔逊发现我为了还债在走私货物。他威胁要举报我，除非我帮他调查"阴谋"。但我发誓我没有伤害他。他给我的谜语毫无意义："商人卖真相，活动家买谎言，长者保守秘密，但当智慧死去时谁获利？"'
+        }
+    ],
+    "伯尼": [
+        {
+            timestamp: '10/10/2025, 18:25:17',
+            from: '伯尼',
+            to: '莎拉',
+            text: '我们现在需要组织一次适当的搜索队。威尔逊不会就这样消失。我检查了他的房子——门是开着的，桌子上的咖啡还是温的。他是惊慌失措地离开的。但莎拉...我需要坦白一些事。威尔逊发现我一直在挪用我的活动基金的捐款。他说除非我放弃对汤普森公司的调查，否则他会揭露我。'
+        },
+        {
+            timestamp: '10/10/2025, 11:30:42',
+            from: '伯尼',
+            to: '马库斯',
+            text: '马库斯，我在他的书房里找到了威尔逊的日记。昨天的最后一篇写道："他们是对的。汇合是真实的。我在石头那里看到了他们。去对质——"就这样结束了。笔还在纸上。但一周前还有另一篇："B知道钱的事。T知道1987年的事。J欠我5万。他们中的一个会先崩溃。"'
+        },
+        {
+            timestamp: '10/10/2025, 07:44:18',
+            from: '汤普森先生',
+            to: '伯尼',
+            text: '别再问问题了，伯尼。别再组织搜索了。这岛上有些事最好别管。你的行动主义会害死人。我知道你用那些捐款做了什么。我知道你的赌债。保持安静，否则加入威尔逊。'
+        },
+        {
+            timestamp: '10/09/2025, 21:18:29',
+            from: '伯尼',
+            to: '武',
+            text: '武，汤普森在隐藏什么。他今天威胁我——告诉我"让过去埋葬"，否则我会"加入其他人"。什么其他人？为什么上周二午夜你在他的庄园？我看到你的送货车在那里。你在送什么？'
+        },
+        {
+            timestamp: '10/09/2025, 15:52:07',
+            from: '伯尼',
+            to: '杰克',
+            text: '我查看了城镇档案。有一个模式——每13年在秋分期间就有人失踪。记录可以追溯到1896年。今年又是第13年。杰克，威尔逊失踪前两周你向他要了一笔巨额贷款。他拒绝了。那就是动机。'
+        },
+        {
+            timestamp: '10/09/2025, 13:28:44',
+            from: '伯尼',
+            to: '马库斯',
+            text: '马库斯，我发现了一些令人不安的东西。威尔逊有我们七个人的照片。每张照片背后，他都写了笔记："战士寻求正义但隐藏着他过去的罪行。活动家宣扬真相但从穷人那里偷窃。商人交易秘密。渔夫淹没在债务中。"他在指控谁？'
+        },
+        {
+            timestamp: '10/09/2025, 10:15:39',
+            from: '伯尼',
+            to: '武',
+            text: '你祖父的日记提到"七人绝不能成为六人。"但我们已经是七人了，威尔逊是第八个。除非...除非我们中的一个人不是他们声称的那个人。武，你的文件说你三年前到达，但我发现了1987年有你名字的运输记录。'
+        }
+    ],
+    "武": [
+        {
+            timestamp: '10/10/2025, 15:35:28',
+            from: '武',
+            to: '莎拉',
+            text: '莎拉，我终于翻译了我祖父的日记。他写到"汇合"——当世界之间的帷幕变薄时。他记录了1961年、1974年、1987年、2000年、2013年的失踪...今晚是下一次汇合。但还有更多："带有繁荣标记的人将要求最终的代价。当心戴着两副面孔的长者。"'
+        },
+        {
+            timestamp: '10/10/2025, 10:20:44',
+            from: '武',
+            to: '伯尼',
+            text: '看看我在码头柱子上发现的这个符号。昨天还不在那里，我很确定。这和我祖父警告"守望者"的符号一样。伯尼，我需要告诉你——汤普森一直在购买这些符号出现的所有土地。他在我们其他人之前就知道它们。'
+        },
+        {
+            timestamp: '10/10/2025, 08:15:33',
+            from: '杰克',
+            to: '武',
+            text: '武，那些古老的符号是什么意思？我到处都看到它们——在树上、岩石上，甚至刻在我的船体上。它们在繁殖。你说它们是"保护符"，但威尔逊告诉我它们实际上是标记。标记什么？'
+        },
+        {
+            timestamp: '10/09/2025, 23:15:37',
+            from: '武',
+            to: '马库斯',
+            text: '当你叠加这些符号时，它们形成了一张地图。它们都指向灯塔下的水下洞穴。我祖父最后的记录警告："满月时千万不要进入。"但我对你们所有人都撒了谎。我进去过。我看到了东西...证据。汤普森几十年来一直在做的事情的证据。'
+        },
+        {
+            timestamp: '10/09/2025, 19:42:55',
+            from: '武',
+            to: '汤普森先生',
+            text: '我知道你1987年在那里，汤普森。我找到了照片——你、我祖父和其他三个人在石圈。只有你和祖父活了下来。发生了什么？为什么你每月付我1万美元让我对我发现的运输清单保持沉默？'
+        },
+        {
+            timestamp: '10/09/2025, 14:28:11',
+            from: '武',
+            to: '杰克',
+            text: '杰克，我需要坦白。我一直在刻的那些符号——它们不是为了保护。它们是警告。我祖父留下了指示："标记尸体所在之处，以便生者知道要逃离。"岛上有6个标记。很快就会有7个。'
+        },
+        {
+            timestamp: '10/09/2025, 11:50:44',
+            from: '武',
+            to: '伯尼',
+            text: '伯尼，你问过我1987年的运输记录。你是对的——我不应该在这里。但那是我父亲，不是我。当他逃离日本时，他用了我的名字作为化名。他在这里目睹了可怕的事情，汤普森付钱让他消失。现在汤普森也拥有了我。我父亲留下的谜语："给予的手也可以夺走。"'
+        }
+    ],
+    "汤普森先生": [
+        {
+            timestamp: '10/10/2025, 19:40:55',
+            from: '莎拉',
+            to: '汤普森先生',
+            text: '汤普森，为什么你不帮我们寻找威尔逊？你们两个是几十年的朋友！你到底在怕什么？还是你害怕我们会发现什么？我看到了合同——威尔逊欠你一切。他的房子、他的船、他的土地。现在都是你的名字。'
+        },
+        {
+            timestamp: '10/10/2025, 09:15:22',
+            from: '汤普森先生',
+            to: '马库斯',
+            text: '我警告过威尔逊不要调查那些石头。我告诉他87年发生了什么。有些门一旦打开，就再也关不上了。他不听。现在太晚了。马库斯，我对你坦白——我从每次失踪中获利。房地产价值下跌，我买入，然后它们又上涨。这只是生意。但我没有杀任何人。'
+        },
+        {
+            timestamp: '10/10/2025, 06:33:47',
+            from: '汤普森先生',
+            to: '伯尼',
+            text: '你的搜索队只会在纪念石上增加更多名字。我以前见过这种情况。岛屿索取它应得的。每。十三。年。伯尼，我知道你的债务。赌场的20万美元。如果你停止这个调查，我可以让它们消失。好好想想。'
+        },
+        {
+            timestamp: '10/09/2025, 17:50:18',
+            from: '汤普森先生',
+            to: '武',
+            text: '你祖父知道真相。他保守秘密是有原因的。岛屿有规则。打破它们，你不仅会死——你会成为它的一部分。永远观察。永远等待。但在你我之间，武——这些不是超自然的死亡。它们非常人性化。非常有利可图。是的，自1974年以来，我策划了每一起。'
+        },
+        {
+            timestamp: '10/09/2025, 13:28:44',
+            from: '汤普森先生',
+            to: '杰克',
+            text: '远离北部水域，杰克。特别是今晚。那些洞穴里的东西不是自然的。我在1987年失去了我的弟弟。不要让我再看到这种事发生。还有，杰克——我知道走私的事。我知道债务。威尔逊也知道。他要揭露我们两个。你的动机和我一样多。'
+        },
+        {
+            timestamp: '10/09/2025, 10:44:33',
+            from: '汤普森先生',
+            to: '莎拉',
+            text: '莎拉，你是个聪明的女人。你看到了模式。让我给你一个威尔逊留给我的谜语："当七人被指控，一人握刀，谁有罪——刀刃还是赋予它生命的人？"这里的每个人都有理由想让威尔逊消失。这里的每个人都有罪。'
+        },
+        {
+            timestamp: '10/09/2025, 08:17:55',
+            from: '汤普森先生',
+            to: '马库斯',
+            text: '马库斯，我知道你找到了我的账本。是的，我借钱给这个镇上的每个人。是的，我收取利息。是的，威尔逊发现我一直在收取40%的利率，这是非法的。他威胁要向联邦当局举报我。那会毁了我。但我有不在场证明——他失踪时我整天都在大陆的银行。'
+        },
+        {
+            timestamp: '10/09/2025, 05:33:21',
+            from: '汤普森先生',
+            to: '伯尼',
+            text: '伯尼，让我告诉你1987年真正发生了什么。七个人在石头那里举行了仪式——试图召唤繁荣。它成功了。但代价是血。一个人必须死，其他人才能繁荣。我们抽签。我弟弟输了。从那以后我一直背负着那份罪疚。威尔逊弄清楚了。他想揭露我们所有人——你、我、武的祖父、杰克的父亲。'
+        }
+    ]
+};
             
             const conversations = characterConversations[char.name] || [];
             
             if (conversations.length === 0) {
-                conversationsSection.innerHTML = '<div style="color: #cbd5e1; padding: 15px; text-align: center;">No conversations recorded yet.</div>';
+conversationsSection.innerHTML = '<div style="color: #cbd5e1; padding: 15px; text-align: center;">尚未记录对话。</div>';
             }
             
-            conversations.forEach(conv => {
-                const convBox = document.createElement('div');
-                convBox.className = 'conversation-box';
-                convBox.innerHTML = `
-                    <div class="conversation-timestamp">${conv.timestamp}</div>
-                    <div class="conversation-from">From: ${conv.from}</div>
-                    <div class="conversation-to">To: ${conv.to}</div>
-                    <div class="conversation-text">${conv.text}</div>
-                `;
-                conversationsSection.appendChild(convBox);
-            });
+conversations.forEach(conv => {
+    const convBox = document.createElement('div');
+    convBox.className = 'conversation-box';
+    convBox.innerHTML = `
+        <div class="conversation-timestamp">${conv.timestamp}</div>
+        <div class="conversation-from">来自: ${conv.from}</div>
+        <div class="conversation-to">发送至: ${conv.to}</div>
+        <div class="conversation-text">${conv.text}</div>
+    `;
+    conversationsSection.appendChild(convBox);
+});
             
             document.getElementById('characterModal').classList.add('show');
             document.getElementById('modalOverlay').classList.add('show');
@@ -2484,15 +2385,15 @@
         function createCharacterPanel() {
             const characterPanel = document.getElementById('characterPanel');
             
-            const humanChars = [
-                { name: "Sarah", sprite: femaleSprite, offsetX: -6, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Marcus", sprite: warriorSprite, offsetX: -8, offsetY: 8, arrowX: 28, arrowY: -30 },
-                { name: "Jack", sprite: maleSprite, offsetX: -5, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Bernie", sprite: bernieSprite, offsetX: -8, offsetY: 0, arrowX: 32, arrowY: -40 },
-                { name: "Shiba Inu", sprite: shibaSprite, offsetX: -7, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Takeshi", sprite: japaneseSprite, offsetX: -8, offsetY: 0, arrowX: 24, arrowY: -40 },
-                { name: "Mr. Thompson", sprite: businessmanSprite, offsetX: -8, offsetY: 0, displayName: "Thompson", arrowX: 24, arrowY: -40 }
-            ];
+const humanChars = [
+    { name: "莎拉", sprite: femaleSprite, offsetX: -6, offsetY: 0, arrowX: 24, arrowY: -30 },
+    { name: "马库斯", sprite: warriorSprite, offsetX: -8, offsetY: 8, arrowX: 28, arrowY: -30 },
+    { name: "杰克", sprite: maleSprite, offsetX: -5, offsetY: 0, arrowX: 24, arrowY: -30 },
+    { name: "伯尼", sprite: bernieSprite, offsetX: -8, offsetY: 0, arrowX: 32, arrowY: -40 },
+    { name: "柴犬", sprite: shibaSprite, offsetX: -7, offsetY: 0, arrowX: 24, arrowY: -30 },
+    { name: "武", sprite: japaneseSprite, offsetX: -8, offsetY: 0, arrowX: 24, arrowY: -40 },
+    { name: "汤普森先生", sprite: businessmanSprite, offsetX: -8, offsetY: 0, displayName: "汤普森", arrowX: 24, arrowY: -40 }
+];
             
             characterPanel.innerHTML = '';
             
@@ -2774,15 +2675,15 @@
         const mysteryModal = document.getElementById('mysteryModal');
         const closeMysteryModal = document.getElementById('closeMysteryModal');
         
-        const votes = {
-            'Sarah': 0,
-            'Marcus': 0,
-            'Jack': 0,
-            'Bernie': 0,
-            'Shiba Inu': 0,
-            'Takeshi': 0,
-            'Mr. Thompson': 0
-        };
+const votes = {
+    '莎拉': 0,
+    '马库斯': 0,
+    '杰克': 0,
+    '伯尼': 0,
+    '柴犬': 0,
+    '武': 0,
+    '汤普森先生': 0
+};
         
         function loadVotes() {
             const saved = localStorage.getItem('hwland_votes');
@@ -2863,8 +2764,8 @@
                 // Timer is up - disable voting and reveal Mr. Thompson as guilty
                 votingActive = false;
                 
-                document.getElementById('guiltyName').textContent = 'MR. THOMPSON';
-                document.getElementById('guiltyReason').textContent = 'Orchestrated disappearances for 50 years. Held $500k insurance policy on Wilson. Wilson discovered illegal loan sharking (40% interest rates) and was going to report him to federal authorities. Thompson has murdered at least 6 people since 1974 for financial gain, using the "ritual" and "island curse" as cover. He systematically eliminates anyone who could expose him. Evidence found in: Wilson\'s hidden recording (unlocked with password 1987RITUAL), character conversations, and Thompson\'s own confession to Takeshi.';
+document.getElementById('guiltyName').textContent = '汤普森先生';
+document.getElementById('guiltyReason').textContent = '策划了50年的失踪案。持有威尔逊的50万美元保险单。威尔逊发现非法高利贷（40%利率）并打算向联邦当局举报。汤普森自1974年以来至少谋杀了6人以获取经济利益，用"仪式"和"岛屿诅咒"作为掩护。他系统地消除任何可能揭露他的人。证据来源：威尔逊的隐藏录音（用密码1987RITUAL解锁）、角色对话和汤普森对武的坦白。';
                 document.getElementById('guiltyAnnouncement').style.display = 'block';
                 
                 // Disable all voting buttons
@@ -2895,16 +2796,16 @@
             });
         }
         
-        window.vote = function(character) {
-            if (!votingActive) {
-                alert('Voting has ended!');
-                return;
-            }
-            
-            if (userVoted) {
-                alert('You have already voted!');
-                return;
-            }
+window.vote = function(character) {
+    if (!votingActive) {
+        alert('投票已结束！');
+        return;
+    }
+    
+    if (userVoted) {
+        alert('您已经投过票了！');
+        return;
+    }
             
             votes[character]++;
             document.getElementById('vote-' + character).textContent = votes[character];
@@ -2919,144 +2820,144 @@
         }
         
         function openMysteryModal(mysteryType) {
-            const mysteries = {
-                'wilson': {
-                    title: '🔍 Wilson Missing - Day 3',
-                    content: `
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Disappearance</div>
-                            <div class="mystery-section-content">
-                                Old Man Wilson has been missing for three days. His coffee was still warm when found, tackle box open at his fishing spot, and his last journal entry reads: "Going to confront—" [unfinished]
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">Key Evidence</div>
-                            <div class="evidence-item">📍 Wilson's jacket found at quarry with expensive cologne</div>
-                            <div class="evidence-item">👔 Thompson's business card found with the jacket</div>
-                            <div class="evidence-item">👣 Muddy footprints suggesting something heavy was dragged</div>
-                            <div class="evidence-item">🐕 Shiba Inu refuses to go near Thompson's gate - only does this when smelling blood</div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Riddle</div>
-                            <div class="riddle-item">"When seven stand in circle round, the eighth shall never be found"</div>
-                            <div class="mystery-section-content" style="margin-top: 10px;">
-                                What does this mean? There are 7 main inhabitants on the island. Wilson would be the eighth...
-                            </div>
-                        </div>
-                    `
-                },
-                'insurance': {
-                    title: '💰 Thompson\'s Secret',
-                    content: `
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Insurance Policy</div>
-                            <div class="mystery-section-content">
-                                Thompson holds a $500,000 life insurance policy on Wilson with himself as the sole beneficiary. Wilson signed it after Thompson "settled his debts" - but was terrified.
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">Key Evidence</div>
-                            <div class="evidence-item">💼 Thompson owns Wilson's house, boat, and land after debts</div>
-                            <div class="evidence-item">📊 Thompson's ledgers show 40% illegal interest rates</div>
-                            <div class="evidence-item">💸 Wilson was going to report Thompson to federal authorities</div>
-                            <div class="evidence-item">🏦 Thompson claims he was at mainland bank when Wilson vanished</div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">Thompson's Confession</div>
-                            <div class="mystery-section-content">
-                                In a conversation with Marcus, Thompson admitted: "I profited from every disappearance. Real estate values drop, I buy, then they rise again." But he insists he didn't kill anyone.
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Riddle</div>
-                            <div class="riddle-item">"The one who profits from silence will be revealed by their silver tongue"</div>
-                        </div>
-                    `
-                },
-                'ritual': {
-                    title: '🕯️ The 1987 Ritual',
-                    content: `
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Blood Ritual</div>
-                            <div class="mystery-section-content">
-                                In 1987, seven people performed a ritual at the stone circle, attempting to summon prosperity. It worked - but required a blood price. They drew straws. Thompson's brother lost. Only Thompson and Takeshi's grandfather survived.
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Pattern</div>
-                            <div class="mystery-section-content">
-                                Every 13 years, someone disappears during the autumn equinox. Records go back to 1896:
-                            </div>
-                            <div class="evidence-item">1961 - Disappearance</div>
-                            <div class="evidence-item">1974 - Disappearance</div>
-                            <div class="evidence-item">1987 - The Ritual (Thompson's brother dies)</div>
-                            <div class="evidence-item">2000 - Disappearance</div>
-                            <div class="evidence-item">2013 - Disappearance</div>
-                            <div class="evidence-item">2025 - Wilson vanishes... Tonight is year 13</div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">Thompson's Words</div>
-                            <div class="mystery-section-content">
-                                "The island takes what it's owed. Every. Thirteen. Years." But later he admits: "These aren't supernatural deaths. They're very human. Very profitable. I've orchestrated every single one since 1974."
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Riddle</div>
-                            <div class="riddle-item">"Seven sins, one judge. Seven lives, one grudge. When the eighth seeks truth, the first will erase the proof."</div>
-                        </div>
-                    `
-                },
-                'locked': {
-                    title: '🔒 LOCKED FILE - Wilson\'s Evidence',
-                    content: `
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">⚠️ Password Protected</div>
-                            <div class="mystery-section-content">
-                                This file contains Wilson's final evidence - the smoking gun that reveals who is truly guilty. Wilson hid this before he disappeared.
-                            </div>
-                        </div>
-                        <div class="password-input-container">
-                            <div style="color: #fbbf24; font-weight: bold; margin-bottom: 10px;">ENTER PASSWORD:</div>
-                            <div style="color: #cbd5e1; font-size: 12px; margin-bottom: 15px;">Hint: The password is hidden in one of the character's conversations. Someone mentioned a specific year that holds the key...</div>
-                            <input type="password" id="lockedFilePassword" placeholder="Enter password...">
-                            <button onclick="checkPassword()">UNLOCK FILE</button>
-                            <div id="passwordMessage"></div>
-                        </div>
-                    `
-                },
-                'caves': {
-                    title: '🗺️ Underwater Caves',
-                    content: `
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Symbols</div>
-                            <div class="mystery-section-content">
-                                Strange symbols have been appearing all over the island - carved into trees, rocks, the pier, and even boat hulls. They glow faintly at night. When overlaid, they form a map pointing to underwater caves beneath the lighthouse.
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">Key Evidence</div>
-                            <div class="evidence-item">🔮 Takeshi has been carving these symbols - claims they're "warnings"</div>
-                            <div class="evidence-item">📜 His grandfather's instructions: "Mark where the bodies lie so the living may know to flee"</div>
-                            <div class="evidence-item">⚠️ There are 6 marks around the island. Soon there will be 7.</div>
-                            <div class="evidence-item">🌊 Fish have completely abandoned the north bay - avoiding something</div>
-                            <div class="evidence-item">🌕 Grandfather's warning: "Never enter when the moon is full"</div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">Takeshi's Confession</div>
-                            <div class="mystery-section-content">
-                                "I lied to you all. I've been inside the caves. I saw things... evidence. Evidence of what Thompson has been doing for decades." Thompson has been paying Takeshi $10,000 a month for his silence.
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">The Riddle</div>
-                            <div class="riddle-item">"The hand that gives can also take away"</div>
-                            <div class="mystery-section-content" style="margin-top: 10px;">
-                                Thompson has been "giving" to everyone - loans, payments, settlements. But at what cost?
-                            </div>
-                        </div>
-                    `
-                }
-            };
+const mysteries = {
+    'wilson': {
+        title: '🔍 威尔逊失踪 - 第三天',
+        content: `
+            <div class="mystery-section">
+                <div class="mystery-section-title">失踪事件</div>
+                <div class="mystery-section-content">
+                    老威尔逊已经失踪三天了。发现时他的咖啡还是热的，钓鱼点的钓具箱是开着的，他最后的日记记录写道："去对质——"[未完成]
+                </div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">关键证据</div>
+                <div class="evidence-item">📍 威尔逊的夹克在采石场被发现，上面有昂贵的香水味</div>
+                <div class="evidence-item">👔 夹克上发现了汤普森的名片</div>
+                <div class="evidence-item">👣 泥泞的脚印表明有重物被拖走</div>
+                <div class="evidence-item">🐕 柴犬拒绝靠近汤普森的大门 - 只有闻到血腥味时才会这样</div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">谜语</div>
+                <div class="riddle-item">"当七人围成圈站立，第八人将永不被找到"</div>
+                <div class="mystery-section-content" style="margin-top: 10px;">
+                    这是什么意思？岛上有7个主要居民。威尔逊本应是第八个...
+                </div>
+            </div>
+        `
+    },
+    'insurance': {
+        title: '💰 汤普森的秘密',
+        content: `
+            <div class="mystery-section">
+                <div class="mystery-section-title">保险单</div>
+                <div class="mystery-section-content">
+                    汤普森持有威尔逊的50万美元人寿保险单，他自己是唯一受益人。威尔逊在汤普森"解决他的债务"后签署了它——但他很害怕。
+                </div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">关键证据</div>
+                <div class="evidence-item">💼 汤普森在债务后拥有威尔逊的房子、船和土地</div>
+                <div class="evidence-item">📊 汤普森的账本显示40%的非法利率</div>
+                <div class="evidence-item">💸 威尔逊打算向联邦当局举报汤普森</div>
+                <div class="evidence-item">🏦 汤普森声称威尔逊失踪时他在大陆的银行</div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">汤普森的坦白</div>
+                <div class="mystery-section-content">
+                    在与马库斯的对话中，汤普森承认："我从每次失踪中获利。房地产价值下跌，我买入，然后它们又上涨。"但他坚称自己没有杀任何人。
+                </div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">谜语</div>
+                <div class="riddle-item">"从沉默中获利的人将被他们的银舌揭露"</div>
+            </div>
+        `
+    },
+    'ritual': {
+        title: '🕯️ 1987年仪式',
+        content: `
+            <div class="mystery-section">
+                <div class="mystery-section-title">血祭仪式</div>
+                <div class="mystery-section-content">
+                    1987年，七个人在石圈举行了仪式，试图召唤繁荣。它成功了——但需要血的代价。他们抽签。汤普森的弟弟输了。只有汤普森和武的祖父活了下来。
+                </div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">模式</div>
+                <div class="mystery-section-content">
+                    每13年，在秋分期间就有人失踪。记录可以追溯到1896年：
+                </div>
+                <div class="evidence-item">1961年 - 失踪</div>
+                <div class="evidence-item">1974年 - 失踪</div>
+                <div class="evidence-item">1987年 - 仪式（汤普森的弟弟死亡）</div>
+                <div class="evidence-item">2000年 - 失踪</div>
+                <div class="evidence-item">2013年 - 失踪</div>
+                <div class="evidence-item">2025年 - 威尔逊失踪...今晚是第13年</div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">汤普森的话</div>
+                <div class="mystery-section-content">
+                    "岛屿索取它应得的。每。十三。年。"但后来他承认："这些不是超自然的死亡。它们非常人性化。非常有利可图。自1974年以来，我策划了每一起。"
+                </div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">谜语</div>
+                <div class="riddle-item">"七罪一审判。七命一恨意。当第八者寻真相，第一者将抹证据。"</div>
+            </div>
+        `
+    },
+    'locked': {
+        title: '🔒 锁定文件 - 威尔逊的证据',
+        content: `
+            <div class="mystery-section">
+                <div class="mystery-section-title">⚠️ 密码保护</div>
+                <div class="mystery-section-content">
+                    此文件包含威尔逊的最终证据——揭示谁是真正凶手的确凿证据。威尔逊在失踪前藏起了这个。
+                </div>
+            </div>
+            <div class="password-input-container">
+                <div style="color: #fbbf24; font-weight: bold; margin-bottom: 10px;">输入密码：</div>
+                <div style="color: #cbd5e1; font-size: 12px; margin-bottom: 15px;">提示：密码隐藏在某个角色的对话中。有人提到了一个特定的年份，它是关键...</div>
+                <input type="password" id="lockedFilePassword" placeholder="输入密码...">
+                <button onclick="checkPassword()">解锁文件</button>
+                <div id="passwordMessage"></div>
+            </div>
+        `
+    },
+    'caves': {
+        title: '🗺️ 水下洞穴',
+        content: `
+            <div class="mystery-section">
+                <div class="mystery-section-title">符号</div>
+                <div class="mystery-section-content">
+                    奇怪的符号出现在整个岛上——刻在树上、岩石上、码头上，甚至船体上。它们在夜里微微发光。当叠加时，它们形成一张指向灯塔下水下洞穴的地图。
+                </div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">关键证据</div>
+                <div class="evidence-item">🔮 武一直在刻这些符号 - 声称它们是"警告"</div>
+                <div class="evidence-item">📜 他祖父的指示："标记尸体所在之处，以便生者知道要逃离"</div>
+                <div class="evidence-item">⚠️ 岛上有6个标记。很快就会有7个。</div>
+                <div class="evidence-item">🌊 鱼类完全放弃了北湾 - 在避开某样东西</div>
+                <div class="evidence-item">🌕 祖父的警告："满月时千万不要进入"</div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">武的坦白</div>
+                <div class="mystery-section-content">
+                    "我对你们所有人都撒了谎。我进去过洞穴。我看到了东西...证据。汤普森几十年来一直在做的事情的证据。"汤普森每月付武1万美元让他保持沉默。
+                </div>
+            </div>
+            <div class="mystery-section">
+                <div class="mystery-section-title">谜语</div>
+                <div class="riddle-item">"给予的手也可以夺走"</div>
+                <div class="mystery-section-content" style="margin-top: 10px;">
+                    汤普森一直在"给予"每个人——贷款、付款、和解。但代价是什么？
+                </div>
+            </div>
+        `
+    }
+};
             
             const mystery = mysteries[mysteryType];
             document.getElementById('mysteryModalTitle').textContent = mystery.title;
@@ -3065,55 +2966,55 @@
             modalOverlay.classList.add('show');
         }
         
-        window.checkPassword = function() {
-            const password = document.getElementById('lockedFilePassword').value;
-            const messageDiv = document.getElementById('passwordMessage');
-            
-            if (password === '1987RITUAL') {
-                messageDiv.innerHTML = '<div class="password-success">✓ ACCESS GRANTED</div>';
-                setTimeout(() => {
-                    document.getElementById('mysteryModalContent').innerHTML = `
-                        <div class="mystery-section" style="border: 3px solid #22c55e;">
-                            <div class="mystery-section-title" style="color: #22c55e;">🔓 WILSON'S FINAL EVIDENCE - UNLOCKED</div>
-                            <div class="mystery-section-content">
-                                <strong style="color: #fbbf24;">Wilson's Hidden Recording - October 9th, 2025</strong><br><br>
-                                "If you're listening to this, I'm already dead. Thompson killed me, or paid someone to do it. I have proof. For years, I suspected the pattern - every 13 years, someone disappears. I dug into the archives, cross-referenced property records, insurance claims, and bank transfers."
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">THE TRUTH</div>
-                            <div class="evidence-item"><strong>1974:</strong> Thompson orchestrated his first murder. Victim owed him money. Staged as accident. Thompson collected insurance and property.</div>
-                            <div class="evidence-item"><strong>1987:</strong> The ritual was real, but Thompson controlled who "lost" the draw. His brother discovered the truth about 1974. Had to die.</div>
-                            <div class="evidence-item"><strong>2000:</strong> Another debtor. Another "disappearance." Another insurance payout.</div>
-                            <div class="evidence-item"><strong>2013:</strong> Takeshi's father witnessed Thompson disposing evidence. Thompson paid him off, forced him to leave under alias.</div>
-                            <div class="evidence-item"><strong>2025:</strong> Thompson has been systematically eliminating anyone who could expose him. I discovered his ledgers showing illegal loan sharking, insurance fraud, and blackmail operations spanning 50 years.</div>
-                        </div>
-                        <div class="mystery-section" style="background: rgba(239, 68, 68, 0.2); border: 3px solid #ef4444;">
-                            <div class="mystery-section-title" style="color: #ef4444;">THOMPSON'S MOTIVE</div>
-                            <div class="mystery-section-content">
-                                Thompson discovered I found evidence linking him to ALL the disappearances. I have bank records, forged insurance documents, and witness testimony. He tried to buy me off with the mortgage payment, made me sign the insurance policy. When I refused to stay quiet, he decided I had to be the next "ritual sacrifice."<br><br>
-                                <strong style="color: #fbbf24;">The killer is MR. THOMPSON.</strong><br><br>
-                                He has murdered at least 6 people over 50 years for financial gain. He uses the "ritual" and "island curse" as cover. It's always been about money.
-                            </div>
-                        </div>
-                        <div class="mystery-section">
-                            <div class="mystery-section-title">ADDITIONAL PROOF</div>
-                            <div class="evidence-item">📁 Hidden ledgers in Thompson's office safe - combination: his brother's death date</div>
-                            <div class="evidence-item">🎙️ This recording backed up in Takeshi's temple cache</div>
-                            <div class="evidence-item">💼 Insurance documents showing Thompson as beneficiary on all victims</div>
-                            <div class="evidence-item">🗺️ Thompson owns all former victims' properties</div>
-                            <div class="evidence-item">💰 Total profit from 50 years of murders: Over $3.2 million</div>
-                        </div>
-                        <div class="riddle-item">
-                            "When seven stand accused and one holds the knife, who is guilty - the blade or those who gave it life?"<br><br>
-                            Answer: Thompson IS both - he's the judge who accuses others, and the killer who holds the knife.
-                        </div>
-                    `;
-                }, 500);
-            } else {
-                messageDiv.innerHTML = '<div class="password-error">✗ INCORRECT PASSWORD</div>';
-            }
-        }
+window.checkPassword = function() {
+    const password = document.getElementById('lockedFilePassword').value;
+    const messageDiv = document.getElementById('passwordMessage');
+    
+    if (password === '1987RITUAL') {
+        messageDiv.innerHTML = '<div class="password-success">✓ 访问已授权</div>';
+        setTimeout(() => {
+            document.getElementById('mysteryModalContent').innerHTML = `
+                <div class="mystery-section" style="border: 3px solid #22c55e;">
+                    <div class="mystery-section-title" style="color: #22c55e;">🔓 威尔逊的最终证据 - 已解锁</div>
+                    <div class="mystery-section-content">
+                        <strong style="color: #fbbf24;">威尔逊的隐藏录音 - 2025年10月9日</strong><br><br>
+                        "如果你正在听这个，我已经死了。汤普森杀了我，或者付钱让别人这么做。我有证据。多年来，我怀疑这个模式——每13年，就有人失踪。我深入档案，交叉参考了财产记录、保险索赔和银行转账。"
+                    </div>
+                </div>
+                <div class="mystery-section">
+                    <div class="mystery-section-title">真相</div>
+                    <div class="evidence-item"><strong>1974年：</strong>汤普森策划了他的第一起谋杀。受害者欠他钱。伪装成事故。汤普森收取了保险金和财产。</div>
+                    <div class="evidence-item"><strong>1987年：</strong>仪式是真实的，但汤普森控制了谁"输"掉抽签。他的弟弟发现了1974年的真相。必须死。</div>
+                    <div class="evidence-item"><strong>2000年：</strong>另一个债务人。另一次"失踪"。另一笔保险赔付。</div>
+                    <div class="evidence-item"><strong>2013年：</strong>武的父亲目睹汤普森处理证据。汤普森付钱给他，强迫他以化名离开。</div>
+                    <div class="evidence-item"><strong>2025年：</strong>汤普森一直在系统地消除任何可能揭露他的人。我发现了他的账本，显示50年来的非法高利贷、保险欺诈和勒索行为。</div>
+                </div>
+                <div class="mystery-section" style="background: rgba(239, 68, 68, 0.2); border: 3px solid #ef4444;">
+                    <div class="mystery-section-title" style="color: #ef4444;">汤普森的动机</div>
+                    <div class="mystery-section-content">
+                        汤普森发现我找到了将他与所有失踪案联系起来的证据。我有银行记录、伪造的保险文件和证人证词。他试图用抵押贷款还款收买我，让我签署保险单。当我拒绝保持沉默时，他决定我必须成为下一个"仪式祭品"。<br><br>
+                        <strong style="color: #fbbf24;">凶手是汤普森先生。</strong><br><br>
+                        他在50年里至少谋杀了6人以获取经济利益。他用"仪式"和"岛屿诅咒"作为掩护。这一直都是关于金钱。
+                    </div>
+                </div>
+                <div class="mystery-section">
+                    <div class="mystery-section-title">附加证据</div>
+                    <div class="evidence-item">📁 汤普森办公室保险箱中的隐藏账本 - 密码：他弟弟的死亡日期</div>
+                    <div class="evidence-item">🎙️ 此录音备份在武的寺庙藏匿处</div>
+                    <div class="evidence-item">💼 保险文件显示汤普森是所有受害者的受益人</div>
+                    <div class="evidence-item">🗺️ 汤普森拥有所有前受害者的财产</div>
+                    <div class="evidence-item">�� 50年谋杀的总利润：超过320万美元</div>
+                </div>
+                <div class="riddle-item">
+                    "当七人被指控，一人握刀，谁有罪——刀刃还是赋予它生命的人？"<br><br>
+                    答案：汤普森两者都是——他是指控他人的审判者，也是握刀的杀手。
+                </div>
+            `;
+        }, 500);
+    } else {
+        messageDiv.innerHTML = '<div class="password-error">✗ 密码错误</div>';
+    }
+}
         
         infoButton.addEventListener('click', () => {
             infoModal.classList.add('show');
