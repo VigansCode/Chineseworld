@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAIRN ISLAND - A Murder Mystery</title>
+    <title>石冢岛 - 谋杀之谜</title>
     <style>
         body {
             margin: 0;
@@ -1135,15 +1135,15 @@
 <body>
     <div id="loading">
         <div class="loading-content">
-            <div class="case-stamp">CASE #001</div>
+            <div class="case-stamp">案件 #001</div>
             <div class="corner-ornament top-left"></div>
             <div class="corner-ornament top-right"></div>
             <div class="corner-ornament bottom-left"></div>
             <div class="corner-ornament bottom-right"></div>
             <div class="coffee-stain-2"></div>
             
-            <div class="loading-title">CAIRN ISLAND</div>
-            <div class="loading-subtitle">⚊ A MURDER MYSTERY ⚊</div>
+            <div class="loading-title">石冢岛</div>
+            <div class="loading-subtitle">⚊ 谋杀之谜 ⚊</div>
             <div class="mystery-icons">
                 <div class="mystery-icon">🔍</div>
                 <div class="mystery-icon">🗡️</div>
@@ -1154,7 +1154,7 @@
                     <div class="loading-bar-fill"></div>
                 </div>
             </div>
-            <div class="loading-text">⚊ CASE FILE LOADING ⚊</div>
+            <div class="loading-text">⚊ 案件档案加载中 ⚊</div>
         </div>
     </div>
     <canvas id="gameCanvas"></canvas>
@@ -1165,22 +1165,22 @@
     </div>
     
     <div id="cluesBox">
-        <div class="clues-title">🔮 MYSTERIES</div>
+        <div class="clues-title">🔮 谜团</div>
         <div class="clue-content">
             <div class="clue-item" onclick="openMysteryModal('wilson')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🔍 Wilson Missing</strong> - Day 3
+                <strong style="color: #fbbf24;">🔍 威尔逊失踪</strong> - 第三天
             </div>
             <div class="clue-item" onclick="openMysteryModal('insurance')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">💰 Thompson's Secret</strong> - Insurance policy
+                <strong style="color: #fbbf24;">💰 汤普森的秘密</strong> - 保险单
             </div>
             <div class="clue-item" onclick="openMysteryModal('ritual')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🕯️ The 1987 Ritual</strong> - Seven names
+                <strong style="color: #fbbf24;">🕯️ 1987年仪式</strong> - 七个名字
             </div>
             <div class="clue-item" onclick="openMysteryModal('caves')" style="cursor: pointer; transition: all 0.2s;">
-                <strong style="color: #fbbf24;">🗺️ Underwater Caves</strong> - Symbols
+                <strong style="color: #fbbf24;">🗺️ 水下洞穴</strong> - 符号
             </div>
             <div class="clue-item" onclick="openMysteryModal('locked')" style="cursor: pointer; transition: all 0.2s; background: rgba(239, 68, 68, 0.2);">
-                <strong style="color: #ef4444;">🔒 LOCKED FILE</strong> - Password Required
+                <strong style="color: #ef4444;">🔒 锁定文件</strong> - 需要密码
             </div>
         </div>
     </div>
@@ -1252,151 +1252,151 @@
     
     <div id="infoModal">
         <div id="closeModal">×</div>
-        <div class="modal-header">Welcome to Cairn Island</div>
+        <div class="modal-header">欢迎来到石冢岛</div>
         
         <div class="modal-section">
-            <div class="modal-section-title">About The Project</div>
+            <div class="modal-section-title">关于项目</div>
             <div class="modal-content">
-                Welcome to Cairn Island - an immersive interactive mystery game where you explore a living, breathing island filled with secrets, conspiracies, and a dark murder mystery. This is a fully realized world where AI-powered characters roam freely, each harboring their own secrets about the disappearance of Old Man Wilson.
+                欢迎来到石冢岛 - 一款沉浸式互动悬疑游戏，您将探索一个充满秘密、阴谋和黑暗谋杀之谜的鲜活岛屿。这是一个完全实现的世界，AI驱动的角色自由漫游，每个人都隐藏着关于老威尔逊失踪的秘密。
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">The Mystery</div>
+            <div class="modal-section-title">谜团</div>
             <div class="modal-content">
-                Old Man Wilson has vanished without a trace. Seven suspects remain on the island, each with their own motives, alibis, and secrets. Explore the island, read character conversations, unlock mystery files, and vote on who you think is guilty. Can you solve the case before time runs out?
+                老威尔逊已经消失得无影无踪。岛上还剩七名嫌疑人，每个人都有自己的动机、不在场证明和秘密。探索岛屿，阅读角色对话，解锁谜团文件，投票选出你认为有罪的人。你能在时间耗尽之前破案吗？
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">📜 Island Lore & Backstory</div>
+            <div class="modal-section-title">📜 岛屿传说与背景故事</div>
             <div class="modal-content">
-                <strong>The Island's Dark History:</strong><br><br>
+                <strong>岛屿的黑暗历史：</strong><br><br>
                 
-                Cairn Island is no ordinary island. For over a century, it has been plagued by mysterious disappearances - always during the autumn equinox, always in cycles of 13 years. The locals whisper about ancient rituals, cursed stone circles, and underwater caves that glow with an unnatural light when the moon is full.<br><br>
+                石冢岛不是一座普通的岛屿。一个多世纪以来，它一直被神秘失踪事件所困扰——总是在秋分时节，总是以13年为周期。当地人低声议论着古老的仪式、被诅咒的石圈，以及满月时会发出诡异光芒的水下洞穴。<br><br>
                 
-                <strong>The 1987 Ritual:</strong><br><br>
+                <strong>1987年的仪式：</strong><br><br>
                 
-                Everything changed in 1987. Seven desperate islanders - drowning in debt, facing ruin - gathered at the ancient stone circle. They performed a blood ritual, seeking prosperity from forces they didn't understand. The ritual worked... but demanded a price. One had to die for the others to prosper. They drew straws. Thompson's brother lost.<br><br>
+                一切在1987年发生了改变。七个绝望的岛民——债台高筑、面临破产——聚集在古老的石圈。他们举行了一场血祭，向他们不理解的力量寻求繁荣。仪式成功了……但需要付出代价。一个人必须死，其他人才能繁荣。他们抽签。汤普森的兄弟输了。<br><br>
                 
-                Only two survived that night: a young businessman named Thompson, and Takeshi's grandfather. The others? They simply vanished. But Thompson's fortunes changed overnight. Within months, he owned half the island. The survivors made a pact: never speak of what happened. Never return to the stones. And never, ever dig into the past.<br><br>
+                那晚只有两人幸存：一个名叫汤普森的年轻商人，和竹内武的祖父。其他人？他们就这样消失了。但汤普森的命运一夜之间改变了。几个月内，他拥有了岛上一半的土地。幸存者们立下誓约：永远不提发生的事。永远不回到石圈。永远、永远不要深挖过去。<br><br>
                 
-                <strong>The Seven Inhabitants:</strong><br><br>
+                <strong>七位居民：</strong><br><br>
                 
-                Now, decades later, seven people remain on Cairn Island - each bound to the island by secrets, debts, or bloodlines. Thompson has become the island's wealthiest man, but his fortune is built on something sinister. Wilson, the eldest fisherman, spent years investigating the pattern of disappearances. He discovered something that threatened to expose everything.<br><br>
+                如今，几十年后，石冢岛上还剩七个人——每个人都因秘密、债务或血统被束缚在岛上。汤普森已成为岛上最富有的人，但他的财富建立在某种邪恶之上。威尔逊，年长的渔夫，花了数年时间调查失踪案件的模式。他发现了某些东西，威胁要揭露一切。<br><br>
                 
-                Three days ago, Wilson vanished. His coffee was still warm. His journal open to an unfinished sentence: "Going to confront—"<br><br>
+                三天前，威尔逊消失了。他的咖啡还是温的。他的日记翻到一句未完成的话："去对质——"<br><br>
                 
-                <strong>The Truth:</strong><br><br>
+                <strong>真相：</strong><br><br>
                 
-                There is no curse. There are no supernatural forces. Just a man who discovered that murder is profitable when disguised as mystery. For 50 years, Thompson has been eliminating anyone who threatens his empire - using the legend of the ritual as cover. Insurance fraud. Illegal loans. Blackmail. And now, one final murder to keep his secrets buried forever.<br><br>
+                没有诅咒。没有超自然力量。只有一个发现谋杀伪装成谜团很有利可图的人。50年来，汤普森一直在消灭任何威胁他帝国的人——利用仪式的传说作为掩护。保险欺诈。非法贷款。勒索。现在，最后一次谋杀，永远埋葬他的秘密。<br><br>
                 
-                The island doesn't take sacrifices. Thompson does.
+                岛屿不索取祭品。汤普森索取。
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">Current Features</div>
+            <div class="modal-section-title">当前功能</div>
             <div class="modal-content">
                 <ul>
-                    <li><strong>✓ Living World:</strong> 7 main characters + 10 sheep roam the island with unique AI behaviors</li>
-                    <li><strong>✓ Deep Lore:</strong> Over 50+ character conversations revealing motives, secrets, and evidence</li>
-                    <li><strong>✓ Mystery System:</strong> 5 major mysteries to investigate, including password-protected files</li>
-                    <li><strong>✓ Voting Mechanic:</strong> Real-time community voting with 8-minute countdown</li>
-                    <li><strong>✓ Character Profiles:</strong> View awareness levels and complete conversation logs</li>
-                    <li><strong>✓ Interactive Map:</strong> Fully explorable island with collision detection</li>
+                    <li><strong>✓ 活生生的世界：</strong> 7个主要角色 + 10只羊以独特的AI行为在岛上漫游</li>
+                    <li><strong>✓ 深层传说：</strong> 超过50+角色对话揭示动机、秘密和证据</li>
+                    <li><strong>✓ 谜团系统：</strong> 5个主要谜团可供调查，包括密码保护的文件</li>
+                    <li><strong>✓ 投票机制：</strong> 实时社区投票，8分钟倒计时</li>
+                    <li><strong>✓ 角色档案：</strong> 查看觉察度和完整的对话记录</li>
+                    <li><strong>✓ 互动地图：</strong> 带碰撞检测的完全可探索岛屿</li>
                 </ul>
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">🚀 Roadmap - What's Coming Next</div>
+            <div class="modal-section-title">🚀 路线图 - 即将推出</div>
             <div class="modal-content">
                 <ul>
-                    <li><strong>Day 2-7 System:</strong> The mystery evolves daily. New clues appear. Characters remember your interactions. Previous votes influence future events. The island changes based on community decisions.</li>
-                    <li><strong>Live AI Conversations:</strong> Talk directly to any character in real-time. They'll remember what you said, respond based on their personality, and may reveal secrets if you ask the right questions.</li>
-                    <li><strong>Dynamic Consequences:</strong> Vote wrong? Face the consequences. Characters die. New mysteries unlock. The island remembers. Every choice permanently alters the world.</li>
-                    <li><strong>Unlockable Locations:</strong> Discover hidden areas - the lighthouse, underwater caves, Thompson's mansion, the stone circle. Each location holds evidence that changes everything.</li>
-                    <li><strong>Character Relationships:</strong> Watch relationships evolve. Alliances form. Betrayals happen. Characters react to votes and accuse each other in real-time.</li>
-                    <li><strong>Multiple Endings:</strong> Your votes determine who survives. 7+ different endings based on who you eliminate and what you uncover. Can you save the innocent?</li>
-                    <li><strong>Voice Acting & Cutscenes:</strong> Fully voiced dialogue. Animated cutscenes reveal key moments. Witness murders, rituals, and confrontations.</li>
-                    <li><strong>NFT Integration:</strong> Own your character. Your choices become permanent on-chain. Trade evidence. Vote with tokens. The blockchain remembers everything.</li>
-                    <li><strong>Community Events:</strong> Real-time island-wide events. Storms reveal hidden evidence. Full moon rituals. Emergency town meetings where everyone votes together.</li>
-                    <li><strong>The Escape:</strong> Final chapter - identify the killer, gather proof, confront them, and escape the island... or become the next victim.</li>
+                    <li><strong>第2-7天系统：</strong> 谜团每天演变。新线索出现。角色记住你的互动。之前的投票影响未来事件。岛屿根据社区决定而变化。</li>
+                    <li><strong>实时AI对话：</strong> 与任何角色实时直接对话。他们会记住你说的话，根据个性回应，如果你问对问题可能会透露秘密。</li>
+                    <li><strong>动态后果：</strong> 投错了？面对后果。角色死亡。新谜团解锁。岛屿记住一切。每个选择都会永久改变世界。</li>
+                    <li><strong>可解锁地点：</strong> 发现隐藏区域——灯塔、水下洞穴、汤普森的豪宅、石圈。每个地点都有改变一切的证据。</li>
+                    <li><strong>角色关系：</strong> 观察关系演变。联盟形成。背叛发生。角色对投票做出反应，实时互相指控。</li>
+                    <li><strong>多重结局：</strong> 你的投票决定谁存活。根据你消灭谁和发现什么，有7+不同的结局。你能拯救无辜者吗？</li>
+                    <li><strong>语音表演和过场动画：</strong> 完全语音对话。动画过场揭示关键时刻。见证谋杀、仪式和对抗。</li>
+                    <li><strong>NFT集成：</strong> 拥有你的角色。你的选择在链上永久化。交易证据。用代币投票。区块链记住一切。</li>
+                    <li><strong>社区活动：</strong> 实时全岛活动。风暴揭示隐藏证据。满月仪式。紧急镇民大会，所有人一起投票。</li>
+                    <li><strong>逃脱：</strong> 最后章节——确认凶手，收集证据，对质他们，逃离岛屿……或成为下一个受害者。</li>
                 </ul>
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">How to Play</div>
+            <div class="modal-section-title">如何游玩</div>
             <div class="modal-content">
                 <ul>
-                    <li><strong>Navigate:</strong> Use arrow keys (WASD) or drag the map to explore the entire island</li>
-                    <li><strong>Character Selection:</strong> Click character portraits at the bottom to instantly jump to their location</li>
-                    <li><strong>Character Profiles:</strong> Click directly on characters to view their profiles, awareness levels, and full conversation histories</li>
-                    <li><strong>Minimap:</strong> Click anywhere on the minimap to quickly travel to that location</li>
-                    <li><strong>Mystery Clues:</strong> Click on any mystery in the top-left clue box to investigate evidence and riddles</li>
-                    <li><strong>Locked Files:</strong> Find passwords hidden in character conversations to unlock crucial evidence</li>
-                    <li><strong>Vote:</strong> Cast your vote in the right panel before the 8-minute timer expires</li>
+                    <li><strong>导航：</strong> 使用方向键（WASD）或拖动地图来探索整个岛屿</li>
+                    <li><strong>角色选择：</strong> 点击底部的角色肖像立即跳转到他们的位置</li>
+                    <li><strong>角色档案：</strong> 直接点击角色查看他们的档案、觉察度和完整对话历史</li>
+                    <li><strong>小地图：</strong> 点击小地图上的任何地方快速前往该位置</li>
+                    <li><strong>谜团线索：</strong> 点击左上角线索框中的任何谜团调查证据和谜语</li>
+                    <li><strong>锁定文件：</strong> 在角色对话中找到隐藏的密码来解锁关键证据</li>
+                    <li><strong>投票：</strong> 在8分钟计时器到期前在右侧面板投出你的一票</li>
                 </ul>
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">The Suspects</div>
+            <div class="modal-section-title">嫌疑人</div>
             <div class="modal-content">
-                <strong>Sarah</strong> - A friendly villager who knows the island well. But does she know too much?<br><br>
-                <strong>Marcus</strong> - A brave warrior protecting the island. Or is he protecting something else?<br><br>
-                <strong>Jack</strong> - A local fisherman with stories to tell. And debts to hide.<br><br>
-                <strong>Bernie</strong> - A passionate activist fighting for change. But embezzling donations for gambling?<br><br>
-                <strong>Shiba Inu</strong> - A loyal dog exploring the island. He keeps finding disturbing evidence...<br><br>
-                <strong>Takeshi</strong> - A traditional merchant trading goods. And trading secrets for $10k/month.<br><br>
-                <strong>Mr. Thompson</strong> - An old businessman with many secrets. The most suspicious of all.
+                <strong>李雪</strong> - 一位友好的村民，对岛屿了如指掌。但她知道的太多了吗？<br><br>
+                <strong>王明</strong> - 一位保护岛屿的勇敢战士。还是他在保护别的东西？<br><br>
+                <strong>张杰克</strong> - 一位有故事可讲的当地渔夫。还有要隐藏的债务。<br><br>
+                <strong>伯尼</strong> - 一位为变革而战的热情活动家。但挪用捐款去赌博？<br><br>
+                <strong>柴犬</strong> - 一只忠诚的狗在探索岛屿。他不断发现令人不安的证据……<br><br>
+                <strong>竹内武</strong> - 一位交易商品的传统商人。用秘密交易每月1万美元。<br><br>
+                <strong>汤普森先生</strong> - 一位有许多秘密的老商人。最可疑的一个。
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">Tips for Solving the Mystery</div>
+            <div class="modal-section-title">破案提示</div>
             <div class="modal-content">
                 <ul>
-                    <li>Read ALL character conversations - vital clues are hidden throughout</li>
-                    <li>Look for patterns in the evidence - dates, numbers, and symbols matter</li>
-                    <li>The password to unlock Wilson's evidence is hidden in the conversations</li>
-                    <li>Pay attention to who benefits most from Wilson's disappearance</li>
-                    <li>Not everyone is lying, but everyone is hiding something</li>
-                    <li>The 1987 ritual is key to understanding the pattern</li>
+                    <li>阅读所有角色对话——关键线索隐藏在各处</li>
+                    <li>寻找证据中的模式——日期、数字和符号很重要</li>
+                    <li>解锁威尔逊证据的密码隐藏在对话中</li>
+                    <li>注意谁从威尔逊的失踪中获益最多</li>
+                    <li>不是每个人都在撒谎，但每个人都在隐藏某些东西</li>
+                    <li>1987年的仪式是理解模式的关键</li>
                 </ul>
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">🔍 Pro Tips - Advanced Strategies</div>
+            <div class="modal-section-title">🔍 专业提示 - 高级策略</div>
             <div class="modal-content">
                 <ul>
-                    <li><strong>Follow the Money:</strong> Who benefits financially from Wilson's death? Look for insurance policies, property ownership changes, and outstanding debts throughout the conversations.</li>
-                    <li><strong>Watch Animal Behavior:</strong> Animals often sense things humans miss. Pay attention to who the dog avoids, who he attacks, and what evidence he keeps finding.</li>
-                    <li><strong>Look for Patterns:</strong> Certain numbers and dates keep appearing. When events repeat at specific intervals, it's rarely coincidence.</li>
-                    <li><strong>Everyone Has Secrets:</strong> Each character is hiding something. Some hide small crimes. One hides murder. Distinguish between guilty behavior and actual guilt.</li>
-                    <li><strong>The Password is Hidden:</strong> The locked file contains the definitive proof. The password is mentioned somewhere in the conversations - look for unusual combinations of words or numbers.</li>
-                    <li><strong>Cross-Reference Stories:</strong> Compare what different characters say about the same events. Who's lying? Who's telling partial truths? Contradictions reveal intent.</li>
-                    <li><strong>Time is Evidence:</strong> The timestamps on conversations matter. Who was where when? Who claims to have alibis that don't match the timeline?</li>
-                    <li><strong>Motive vs Opportunity:</strong> Many had reasons to want Wilson gone. But only one had both the means and the history to actually do it. Think bigger than just this murder.</li>
+                    <li><strong>跟踪金钱：</strong> 谁从威尔逊的死亡中获得经济利益？在对话中寻找保险单、财产所有权变更和未偿债务。</li>
+                    <li><strong>观察动物行为：</strong> 动物常常能感知人类错过的东西。注意狗避开谁、攻击谁，以及它不断发现什么证据。</li>
+                    <li><strong>寻找模式：</strong> 某些数字和日期不断出现。当事件以特定间隔重复时，很少是巧合。</li>
+                    <li><strong>每个人都有秘密：</strong> 每个角色都在隐藏某些东西。有些人隐藏小罪行。一个人隐藏谋杀。区分有罪行为和实际罪行。</li>
+                    <li><strong>密码被隐藏了：</strong> 锁定的文件包含确凿证据。密码在对话中的某处提到——寻找不寻常的单词或数字组合。</li>
+                    <li><strong>交叉引用故事：</strong> 比较不同角色对同一事件的说法。谁在撒谎？谁在说部分真相？矛盾揭示意图。</li>
+                    <li><strong>时间就是证据：</strong> 对话上的时间戳很重要。谁在什么时候在哪里？谁声称的不在场证明与时间线不符？</li>
+                    <li><strong>动机与机会：</strong> 许多人有理由想让威尔逊消失。但只有一个人既有手段又有历史来真正做到。想得比这次谋杀更深远。</li>
                 </ul>
             </div>
         </div>
         
         <div class="modal-section">
-            <div class="modal-section-title">❓ Frequently Asked Questions</div>
+            <div class="modal-section-title">❓ 常见问题</div>
             <div class="modal-content">
                 <ul>
-                    <li><strong>Can I change my vote?</strong> No, once you vote it's locked in. Choose carefully!</li>
-                    <li><strong>What happens when the timer ends?</strong> Voting closes and the verdict is revealed. The character with the most votes is declared guilty, and consequences will unfold in future days.</li>
-                    <li><strong>How do I unlock the password-protected file?</strong> The password is hidden in one of the character conversations. Look for mentions of years and rituals. Hint: Check what Takeshi or Shiba Inu found.</li>
-                    <li><strong>What do awareness levels mean?</strong> Each character has an awareness level (0-100%) showing how much they know about the mystery. Higher awareness = more dangerous to the killer.</li>
-                    <li><strong>Will there be more days/episodes?</strong> Yes! This is Day 1. Future updates will add Days 2-7, with new mysteries, character deaths, and evolving storylines based on your votes.</li>
-                    <li><strong>Can I play on mobile?</strong> The game works on mobile but is optimized for desktop. Mobile improvements are coming in future updates.</li>
-                    <li><strong>Is there really a correct answer?</strong> Yes. Wilson left evidence proving who the killer is. Unlock the password-protected file to see the truth.</li>
-                    <li><strong>What if I vote for the wrong person?</strong> An innocent person may die. The real killer remains free. Your choices have consequences in future episodes.</li>
+                    <li><strong>我可以改变投票吗？</strong> 不行，一旦投票就锁定了。请谨慎选择！</li>
+                    <li><strong>计时器结束时会发生什么？</strong> 投票关闭并公布裁决。得票最多的角色被宣布有罪，后果将在未来几天展开。</li>
+                    <li><strong>如何解锁密码保护的文件？</strong> 密码隐藏在某个角色对话中。寻找提到年份和仪式的地方。提示：检查竹内武或柴犬发现了什么。</li>
+                    <li><strong>觉察度是什么意思？</strong> 每个角色都有一个觉察度（0-100%），显示他们对谜团了解多少。觉察度越高=对凶手越危险。</li>
+                    <li><strong>会有更多天/章节吗？</strong> 是的！这是第1天。未来更新将添加第2-7天，包含新谜团、角色死亡和根据你的投票演变的故事情节。</li>
+                    <li><strong>可以在手机上玩吗？</strong> 游戏在手机上可以运行，但针对桌面进行了优化。手机改进将在未来更新中推出。</li>
+                    <li><strong>真的有正确答案吗？</strong> 是的。威尔逊留下了证明凶手是谁的证据。解锁密码保护的文件查看真相。</li>
+                    <li><strong>如果我投错了人怎么办？</strong> 无辜的人可能会死。真正的凶手仍然逍遥法外。你的选择在未来章节中会有后果。</li>
                 </ul>
             </div>
         </div>
@@ -1405,51 +1405,51 @@
     
     <div id="sidePanel">
         <div class="panel-section">
-            <div class="panel-title">Day Tracker: Day 1</div>
+            <div class="panel-title">日期追踪：第一天</div>
             <div class="panel-content">
-                <div class="stat-item">LIVE: ON X</div>
-                <div class="stat-item" style="font-size: 12px; cursor: pointer; background: rgba(245, 158, 11, 0.1); padding: 8px; border-radius: 4px; border: 1px solid rgba(245, 158, 11, 0.3);" onclick="copyCA()" title="Click to copy">
-                    <strong style="color: #fbbf24;">CA:</strong> <span id="caText">TBA</span>
+                <div class="stat-item">直播：X平台</div>
+                <div class="stat-item" style="font-size: 12px; cursor: pointer; background: rgba(245, 158, 11, 0.1); padding: 8px; border-radius: 4px; border: 1px solid rgba(245, 158, 11, 0.3);" onclick="copyCA()" title="点击复制">
+                    <strong style="color: #fbbf24;">合约地址:</strong> <span id="caText">待定</span>
                 </div>
             </div>
         </div>
         
         <div class="panel-section">
-            <div class="panel-title">Voting - Who is Guilty?</div>
+            <div class="panel-title">投票 - 谁有罪？</div>
             <div class="panel-content">
-                <div class="stat-item"><strong>Time Remaining: <span id="countdown">8:00</span></strong></div>
+                <div class="stat-item"><strong>剩余时间: <span id="countdown">8:00</span></strong></div>
                 <div style="margin-top: 12px;">
-                    <div class="vote-option" onclick="vote('Sarah')">
-                        <span class="vote-name">Sarah</span>
-                        <span class="vote-count" id="vote-Sarah">0</span>
+                    <div class="vote-option" onclick="vote('李雪')">
+                        <span class="vote-name">李雪</span>
+                        <span class="vote-count" id="vote-李雪">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Marcus')">
-                        <span class="vote-name">Marcus</span>
-                        <span class="vote-count" id="vote-Marcus">0</span>
+                    <div class="vote-option" onclick="vote('王明')">
+                        <span class="vote-name">王明</span>
+                        <span class="vote-count" id="vote-王明">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Jack')">
-                        <span class="vote-name">Jack</span>
-                        <span class="vote-count" id="vote-Jack">0</span>
+                    <div class="vote-option" onclick="vote('张杰克')">
+                        <span class="vote-name">张杰克</span>
+                        <span class="vote-count" id="vote-张杰克">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Bernie')">
-                        <span class="vote-name">Bernie</span>
-                        <span class="vote-count" id="vote-Bernie">0</span>
+                    <div class="vote-option" onclick="vote('伯尼')">
+                        <span class="vote-name">伯尼</span>
+                        <span class="vote-count" id="vote-伯尼">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Shiba Inu')">
-                        <span class="vote-name">Shiba Inu</span>
-                        <span class="vote-count" id="vote-Shiba Inu">0</span>
+                    <div class="vote-option" onclick="vote('柴犬')">
+                        <span class="vote-name">柴犬</span>
+                        <span class="vote-count" id="vote-柴犬">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Takeshi')">
-                        <span class="vote-name">Takeshi</span>
-                        <span class="vote-count" id="vote-Takeshi">0</span>
+                    <div class="vote-option" onclick="vote('竹内武')">
+                        <span class="vote-name">竹内武</span>
+                        <span class="vote-count" id="vote-竹内武">0</span>
                     </div>
-                    <div class="vote-option" onclick="vote('Mr. Thompson')">
-                        <span class="vote-name">Mr. Thompson</span>
-                        <span class="vote-count" id="vote-Mr. Thompson">0</span>
+                    <div class="vote-option" onclick="vote('汤普森先生')">
+                        <span class="vote-name">汤普森先生</span>
+                        <span class="vote-count" id="vote-汤普森先生">0</span>
                     </div>
                 </div>
                 <div id="guiltyAnnouncement" style="display: none; background: rgba(239, 68, 68, 0.3); border: 3px solid #ef4444; border-radius: 8px; padding: 15px; margin-top: 15px; text-align: center;">
-                    <div style="color: #fbbf24; font-size: 18px; font-weight: bold; margin-bottom: 8px;">🔴 GUILTY VERDICT 🔴</div>
+                    <div style="color: #fbbf24; font-size: 18px; font-weight: bold; margin-bottom: 8px;">🔴 有罪判决 🔴</div>
                     <div id="guiltyName" style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;"></div>
                     <div id="guiltyReason" style="color: #cbd5e1; font-size: 13px; line-height: 1.5;"></div>
                 </div>
@@ -1745,8 +1745,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Sarah",
-                description: "A friendly villager who knows the island well.",
+                name: "李雪",
+                description: "一位友好的村民,对岛屿了如指掌。",
                 type: "human"
             });
             
@@ -1768,8 +1768,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Marcus",
-                description: "A brave warrior protecting the island.",
+                name: "王明",
+                description: "一位勇敢的战士,保护着岛屿。",
                 type: "human"
             });
             
@@ -1791,8 +1791,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Jack",
-                description: "A local fisherman with stories to tell.",
+                name: "张杰克",
+                description: "一位有故事的渔夫。",
                 type: "human"
             });
             
@@ -1814,8 +1814,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Bernie",
-                description: "A passionate activist fighting for change.",
+                name: "伯尼",
+                description: "一位为变革而战的激情活动家。",
                 type: "human"
             });
             
@@ -1837,8 +1837,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Shiba Inu",
-                description: "A loyal Shiba Inu exploring the island.",
+                name: "柴犬",
+                description: "一只忠诚的柴犬在岛上探索。",
                 type: "human"
             });
             
@@ -1860,8 +1860,8 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Takeshi",
-                description: "A traditional Japanese merchant trading goods.",
+                name: "竹内武",
+                description: "一位贸易货物的传统商人。",
                 type: "human"
             });
             
@@ -1883,13 +1883,13 @@
                 pauseTimer: 0,
                 pauseDuration: 0,
                 isPaused: false,
-                name: "Mr. Thompson",
-                description: "An old businessman with many secrets.",
+                name: "汤普森先生",
+                description: "一位有许多秘密的老商人。",
                 type: "human"
             });
             
             const sheepSprites = [sheep1Sprite, sheep2Sprite, sheep3Sprite, sheep4Sprite, sheep5Sprite];
-            const sheepColors = ["White", "Brown", "Black", "Gray", "Spotted"];
+            const sheepColors = ["白色", "棕色", "黑色", "灰色", "花斑"];
             const sheepRegionIndices = [15, 14, 12, 11, 9, 8, 6, 5, 4, 3];
             
             let sheepIdx = 0;
@@ -1923,8 +1923,8 @@
                         pauseTimer: 0,
                         pauseDuration: 0,
                         isPaused: false,
-                        name: sheepColors[index] + " Sheep",
-                        description: "A peaceful " + sheepColors[index].toLowerCase() + " sheep grazing.",
+                        name: sheepColors[index] + "绵羊",
+                        description: "一只和平的" + sheepColors[index] + "绵羊在吃草。",
                         type: "sheep"
                     });
                     sheepIdx++;
@@ -2485,13 +2485,13 @@
             const characterPanel = document.getElementById('characterPanel');
             
             const humanChars = [
-                { name: "Sarah", sprite: femaleSprite, offsetX: -6, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Marcus", sprite: warriorSprite, offsetX: -8, offsetY: 8, arrowX: 28, arrowY: -30 },
-                { name: "Jack", sprite: maleSprite, offsetX: -5, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Bernie", sprite: bernieSprite, offsetX: -8, offsetY: 0, arrowX: 32, arrowY: -40 },
-                { name: "Shiba Inu", sprite: shibaSprite, offsetX: -7, offsetY: 0, arrowX: 24, arrowY: -30 },
-                { name: "Takeshi", sprite: japaneseSprite, offsetX: -8, offsetY: 0, arrowX: 24, arrowY: -40 },
-                { name: "Mr. Thompson", sprite: businessmanSprite, offsetX: -8, offsetY: 0, displayName: "Thompson", arrowX: 24, arrowY: -40 }
+                { name: "李雪", sprite: femaleSprite, offsetX: -6, offsetY: 0, arrowX: 24, arrowY: -30 },
+                { name: "王明", sprite: warriorSprite, offsetX: -8, offsetY: 8, arrowX: 28, arrowY: -30 },
+                { name: "张杰克", sprite: maleSprite, offsetX: -5, offsetY: 0, arrowX: 24, arrowY: -30 },
+                { name: "伯尼", sprite: bernieSprite, offsetX: -8, offsetY: 0, arrowX: 32, arrowY: -40 },
+                { name: "柴犬", sprite: shibaSprite, offsetX: -7, offsetY: 0, arrowX: 24, arrowY: -30 },
+                { name: "竹内武", sprite: japaneseSprite, offsetX: -8, offsetY: 0, arrowX: 24, arrowY: -40 },
+                { name: "汤普森先生", sprite: businessmanSprite, offsetX: -8, offsetY: 0, displayName: "汤普森", arrowX: 24, arrowY: -40 }
             ];
             
             characterPanel.innerHTML = '';
@@ -2775,13 +2775,13 @@
         const closeMysteryModal = document.getElementById('closeMysteryModal');
         
         const votes = {
-            'Sarah': 0,
-            'Marcus': 0,
-            'Jack': 0,
-            'Bernie': 0,
-            'Shiba Inu': 0,
-            'Takeshi': 0,
-            'Mr. Thompson': 0
+            '李雪': 0,
+            '王明': 0,
+            '张杰克': 0,
+            '伯尼': 0,
+            '柴犬': 0,
+            '竹内武': 0,
+            '汤普森先生': 0
         };
         
         function loadVotes() {
