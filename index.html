@@ -1188,7 +1188,7 @@
     <div id="playerMarker">⬇</div>
     
     <audio id="bgMusic" loop>
-        <source src="https://res.cloudinary.com/dpogkjjow/video/upload/v1760408598/Untitled_video_-_Made_with_Clipchamp_3_xj8vv5.mp4" type="audio/mpeg">
+        <source src="https://res.cloudinary.com/dpogkjjow/video/upload/v1760389843/suspense_music_cq3dlr.mp3" type="audio/mpeg">
     </audio>
     
     <div id="characterPanel"></div>
@@ -1238,7 +1238,7 @@
             </div>
             
             <div class="awareness-section">
-                <div class="awareness-label">Awareness Level</div>
+                <div class="awareness-label">觉察度</div>
                 <div class="awareness-bar">
                     <div class="awareness-fill" id="awarenessFill" style="width: 0%"></div>
                     <div class="awareness-text" id="awarenessText">0%</div>
@@ -2081,7 +2081,7 @@
             conversationsSection.innerHTML = '';
             
             const characterConversations = {
-                "Shiba Inu": [
+                "柴犬": [
                     {
                         timestamp: '10/10/2025, 16:20:50',
                         from: 'Jack',
@@ -2125,7 +2125,7 @@
                         text: 'Shiba Inu found a buried lockbox near the shore. Inside were photos of all seven of us, each with a red X through our faces except Thompson. And a riddle: "Seven sins, one judge. Seven lives, one grudge. When the eighth seeks truth, the first will erase the proof."'
                     }
                 ],
-                "Sarah": [
+                "李雪": [
                     {
                         timestamp: '10/10/2025, 15:59:32',
                         from: 'Sarah',
@@ -2175,7 +2175,7 @@
                         text: 'Shiba Inu led me to Wilson torn jacket this morning. It was covered in red clay - the kind only found near the old quarry. But here is the strange part: there were also traces of expensive cologne on it. Who on this island wears cologne?'
                     }
                 ],
-                "Marcus": [
+                "王明": [
                     {
                         timestamp: '10/10/2025, 16:45:22',
                         from: 'Marcus',
@@ -2225,7 +2225,7 @@
                         text: 'Bernie, someone told me you threatened Wilson two weeks ago. Said if he did not join your "movement," there would be consequences. Is activism your real motive, or is there something darker?'
                     }
                 ],
-                "Jack": [
+                "张杰克": [
                     {
                         timestamp: '10/10/2025, 17:10:33',
                         from: 'Jack',
@@ -2275,7 +2275,7 @@
                         text: 'I need to come clean about something. Wilson found out I was smuggling goods to pay my debts. He threatened to report me unless I helped him investigate "the conspiracy." But I swear I did not hurt him. The riddle he gave me makes no sense: "The merchant sells truth, the activist buys lies, the elder keeps secrets, but who profits when wisdom dies?"'
                     }
                 ],
-                "Bernie": [
+                "伯尼": [
                     {
                         timestamp: '10/10/2025, 18:25:17',
                         from: 'Bernie',
@@ -2363,7 +2363,7 @@
                         text: 'Hachi found a buried lockbox near the shore. Inside were photos of all seven of us, each with a red X through our faces except Thompson. And a riddle: "Seven sins, one judge. Seven lives, one grudge. When the eighth seeks truth, the first will erase the proof."'
                     }
                 ],
-                "Takeshi": [
+                "竹内武": [
                     {
                         timestamp: '10/10/2025, 15:35:28',
                         from: 'Takeshi',
@@ -2407,7 +2407,7 @@
                         text: 'Bernie, you asked about my shipping records from 1987. You are right - I should not have been here. But it was my father, not me. He used my name as an alias when he fled Japan. He witnessed something terrible here and Thompson paid him to disappear. Now Thompson owns me too. The riddle my father left: "The hand that gives can also take away."'
                     }
                 ],
-                "Mr. Thompson": [
+                "汤普森先生": [
                     {
                         timestamp: '10/10/2025, 19:40:55',
                         from: 'Sarah',
@@ -2462,7 +2462,7 @@
             const conversations = characterConversations[char.name] || [];
             
             if (conversations.length === 0) {
-                conversationsSection.innerHTML = '<div style="color: #cbd5e1; padding: 15px; text-align: center;">No conversations recorded yet.</div>';
+                conversationsSection.innerHTML = '<div style="color: #cbd5e1; padding: 15px; text-align: center;">暂无对话记录。</div>';
             }
             
             conversations.forEach(conv => {
@@ -2470,8 +2470,8 @@
                 convBox.className = 'conversation-box';
                 convBox.innerHTML = `
                     <div class="conversation-timestamp">${conv.timestamp}</div>
-                    <div class="conversation-from">From: ${conv.from}</div>
-                    <div class="conversation-to">To: ${conv.to}</div>
+                    <div class="conversation-from">来自: ${conv.from}</div>
+                    <div class="conversation-to">至: ${conv.to}</div>
                     <div class="conversation-text">${conv.text}</div>
                 `;
                 conversationsSection.appendChild(convBox);
