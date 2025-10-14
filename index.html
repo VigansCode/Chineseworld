@@ -1198,7 +1198,7 @@
         <span>?</span>
     </div>
     
-    <a href="https://twitter.com/your_handle" target="_blank" class="social-button" id="twitterButton">
+    <a href="https://twitter.com/jingwanisland" target="_blank" class="social-button" id="twitterButton">
         <img src="https://static.wixstatic.com/media/e2da02_75efd7a093fd4113a9662b914a541af9~mv2.jpg" alt="Twitter/X">
     </a>
     
@@ -1410,7 +1410,7 @@
             <div class="panel-content">
                 <div class="stat-item">直播:X平台</div>
                 <div class="stat-item" style="font-size: 12px; cursor: pointer; background: rgba(245, 158, 11, 0.1); padding: 8px; border-radius: 4px; border: 1px solid rgba(245, 158, 11, 0.3);" onclick="copyCA()" title="点击复制">
-                    <strong style="color: #fbbf24;">合约地址:</strong> <span id="caText">TBA</span>
+                    <strong style="color: #fbbf24;">合约地址:</strong> <span id="caText">很快</span>
                 </div>
             </div>
         </div>
@@ -2885,7 +2885,7 @@
             const caText = document.getElementById('caText').textContent;
             navigator.clipboard.writeText(caText).then(() => {
                 const originalText = document.getElementById('caText').textContent;
-                document.getElementById('caText').textContent = 'Copied!';
+                document.getElementById('caText').textContent = '已复制!';
                 document.getElementById('caText').style.color = '#22c55e';
                 setTimeout(() => {
                     document.getElementById('caText').textContent = originalText;
